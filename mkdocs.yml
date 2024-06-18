@@ -19,7 +19,7 @@ nav:
       - Configure: relay/config.md
       - Service: relay/service.md
       # - Free up Space: relay/free-up-space.md
-      # - Test Your Relay: relay/test.md
+      - Test Your Relay: relay/test.md
 
   - Donate:
       - bitcoin: donate/index.md
