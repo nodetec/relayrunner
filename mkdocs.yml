@@ -28,11 +28,9 @@ site_name: Relay Runner
 site_url: https://relayrunner.org/
 theme:
   font:
-    # text: Inter
     code: IBM Plex Mono
 
   icon:
-    # edit: material/pencil
     view: material/eye
 
   name: material
