@@ -1,0 +1,22 @@
+# fly.toml app configuration file generated for relayrunner-aged-shape-7662 on 2024-06-18T02:10:30-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'relayrunner-aged-shape-7662'
+primary_region = 'ewr'
+
+[build]
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
