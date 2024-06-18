@@ -75,3 +75,48 @@ server {
 ```bash
 flyctl launch
 ```
+
+## GitHub Actions
+
+First head over to [fly.io](https://fly.io) and create a new token.
+
+In GitHub, navigate to your repo, then Settings > Secrets and Variables > Actions
+
+Here, create a Repository Secret called FLY_ACCESS_TOKEN - Paste in the value from the Fly.io dashboard
+
+Next create the workflows directory and add a `build-site.yml` file
+
+```bash
+mkdir -p .github/workflows
+```
+
+```bash
+touch .github/workflows/build-site.yml
+```
+
+Add the following to the `build-site.yml` file
+
+```yaml
+name: Build Site
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/**
+      - .github/workflows/build-site.yaml
+      - mkdocs.yml
+      - Dockerfile
+      - fly.toml
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    name: Build Documentation
+    steps:
+      - name: Git Clone
+        uses: actions/checkout@v4
+      - name: Fly Build and Deploy
+        uses: userbradley/actions-fly@v1.0.0
+        with:
+          flyToken: ${{ secrets.FLY_ACCESS_TOKEN }}
+```

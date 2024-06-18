@@ -1,0 +1,22 @@
+name: Build Site
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/**
+      - .github/workflows/build-site.yaml
+      - mkdocs.yml
+      - Dockerfile
+      - fly.toml
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    name: Build Documentation
+    steps:
+      - name: Git Clone
+        uses: actions/checkout@v4
+      - name: Fly Build and Deploy
+        uses: userbradley/actions-fly@v1.0.0
+        with:
+          flyToken: ${{ secrets.FLY_ACCESS_TOKEN }}
