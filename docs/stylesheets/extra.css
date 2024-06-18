@@ -1,0 +1,31 @@
+/* Make section headers bold in the sidebar */
+/* .md-nav__item--active>.md-nav__link { */
+/*   font-weight: bold; */
+/*   background-color: var(--md-primary-bg-color); */
+/*   border-radius: 0.25rem; */
+/* } */
+
+:root {
+  --md-nav-link-for-color: #333333;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-nav-link-for-color: #dddddd;
+  /* --md-typeset-a-color: #c330de !important; */
+
+}
+
+.md-nav__title {
+  font-size: 0.8rem;
+}
+
+.md-nav__link {
+  font-size: 0.85rem;
+  padding-left: 1.25rem;
+}
+
+.md-nav__link[for] {
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  color: var(--md-nav-link-for-color) !important;
+}

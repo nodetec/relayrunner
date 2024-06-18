@@ -1,1 +1,118 @@
-site_name: My Docs
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+nav:
+  - Home:
+      - Introduction: index.md
+      - Implementations: implementations.md
+      - Resources: resources.md
+      - FAQ: faq.md
+
+  - Server:
+      - Get a Server: server/get-a-server.md
+      - Get a Domain Name: server/domain-name.md
+      - Remote Access: server/remote-access.md
+      - Reverse Proxy: server/reverse-proxy.md
+      - Firewall: server/firewall.md
+      - SSL/TLS Certificate: server/ssl.md
+
+  - Relay:
+      - Install: relay/install.md
+      - Configure: relay/config.md
+      - Service: relay/service.md
+      # - Free up Space: relay/free-up-space.md
+      # - Test Your Relay: relay/test.md
+
+  - Donate:
+      - bitcoin: donate/index.md
+
+site_name: Relay Runner
+site_url: https://relayrunner.org/
+theme:
+  font:
+    # text: Inter
+    code: IBM Plex Mono
+
+  icon:
+    # edit: material/pencil
+    view: material/eye
+
+  name: material
+  logo: assets/logo_cropped_purple.png
+  favicon: assets/logo_square_purple.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    # - navigation.footer
+    # - navigation.expand
+    - navigation.path
+    # - navigation.prune
+    # - navigation.top
+    # - navigation.indexes
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - toc.follow
+    # - toc.integrate
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search
+  - social
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: false
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@chrisatmachine
+      name: chrisatmachine on Twitter
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@chrisatmachine
+      name: chrisatmachine on YouTube
+    - icon: fontawesome/brands/github
+      link: https://github.com/nodetec
+      name: NODE-TEC on GitHub
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zdKq5brhF9
+      name: NODE-TEC on Discord
+
+repo_url: https://github.com/nodetec/relayrunner
+repo_name: NODE-TEC/relayrunner
+edit_uri: edit/master/docs/
+
+copyright: Copyright &copy; 2024 NODE-TEC

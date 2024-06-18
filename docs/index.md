@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Relay Runner
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This site will help you setup a relay for personal or public use. Relays are servers that transmit notes and other stuff to clients on the [nostr](https://nostr.com/) network and may (or may not) store them as well.
 
-## Commands
+## Why run a personal relay?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Running a personal relay is a great way to keep your notes and other data under your control. You can use it as an archive for all of your data or maybe as a dedicated relay for a personal website.
 
-## Project layout
+## Why run a public relay?
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Running a public relay is a great way to decentralize and help the nostr network grow. You also have the option to monetize your relay by charging clients for access.
