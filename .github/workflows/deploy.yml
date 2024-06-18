@@ -1,0 +1,27 @@
+name: Deploy Site
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - docs/**
+      - .github/workflows/deploy.yaml
+      - mkdocs.yml
+      - Dockerfile
+      - nginx.conf
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    name: Build Documentation
+    environment:
+      name: prod
+      url: https://relayrunner.org
+      steps:
+      - name: Git Clone
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fly Build and Deploy
+        uses: userbradley/actions-fly@v1.1.0
+        with:
+          flyToken: ${{ secrets.FLY_ACCESS_TOKEN_PROD }}
