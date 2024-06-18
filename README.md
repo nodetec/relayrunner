@@ -120,3 +120,7 @@ jobs:
         with:
           flyToken: ${{ secrets.FLY_ACCESS_TOKEN }}
 ```
+
+## DNS
+
+https://fly.io/docs/networking/custom-domains-with-fly/
