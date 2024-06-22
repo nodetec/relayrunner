@@ -16,5 +16,5 @@ chmod +x "$DEST_PATH"
 
 # Run the relaywiz install command
 echo "Running relaywiz install..."
-sudo "$DEST_PATH" install
+"$DEST_PATH" install < /dev/tty
 
