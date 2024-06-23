@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL to download the relaywiz binary
-RELAYWIZ_URL="https://github.com/nodetec/relaywizard/releases/download/v0.0.1/relaywiz"
+RELAYWIZ_URL="https://github.com/nodetec/relaywizard/releases/download/v0.1.0/relaywiz"
 
 # Destination path for the downloaded binary
 DEST_PATH="/usr/local/bin/relaywiz"
