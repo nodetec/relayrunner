@@ -18,35 +18,15 @@ apt install nginx
 
 ## Configure Nginx
 
-Add a configuration file for your site in the `/etc/nginx/conf.d/` directory. You can name the file whatever you'd like, but it should end with `.conf`. Here is an example configuration file for a relay:
+Add a configuration file for your site in the `/etc/nginx/conf.d/` directory.
 
-```nginx
-# relayrunner.xyz
-server {
-    listen 80;
-    listen [::]:80;
-    server_name relayrunner.xyz;
+```bash
+cd /etc/nginx/conf.d/
+```
 
-    location /.well-known/acme-challenge/ {
-        root /var/www/relayrunner;
-        allow all;
-    }
+You can name the file whatever you'd like, but it should end with `.conf`. Here is an example configuration file for a relay:
 
-    location / {
-        root /var/www/relayrunner.xyz;
-        index index.html;
-    }
-}
-
-# www.relayrunner.xyz
-server {
-    listen 80;
-    listen [::]:80;
-    server_name www.relayrunner.xyz;
-
-    return 301 http://relayrunner.xyz$request_uri;
-}
-
+```nginx title="relay.conf"
 map $http_upgrade $connection_upgrade {
     default upgrade;
     '' close;
@@ -56,14 +36,13 @@ upstream websocket {
     server 127.0.0.1:8080;
 }
 
-# relay.relayrunner.xyz
 server {
     listen 80;
     listen [::]:80;
-    server_name relay.relayrunner.xyz;
+    server_name relay.relayrunner.xyz; # replace with your domain
 
     location /.well-known/acme-challenge/ {
-        root /var/www/relayrunner;
+        root /var/www/relayrunner; # replace with your domain
         allow all;
     }
 
@@ -78,28 +57,9 @@ server {
 }
 ```
 
-Make sure to replace `relayrunner.xyz` with your domain name.
+Make sure to replace `relayrunner` with your domain name.
 
-Create the directory for your relay homepage:
-
-```bash
-mkdir /var/www/relayrunner.xyz
-```
-
-Create an `index.html` file in the directory and add whatever information you'd like to include about your relay, here is an example:
-
-```html
-<!doctype html>
-<html>
-  <head>
-    <title>Relay Runner</title>
-  </head>
-  <body>
-    <h1>Welcome to Relay Runner</h1>
-    <p>This is a personal relay for my notes and other stuff.</p>
-  </body>
-</html>
-```
+## Reload Nginx
 
 now test your config and restart Nginx to apply the changes:
 
