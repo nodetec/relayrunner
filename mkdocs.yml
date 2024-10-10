@@ -3,23 +3,60 @@ nav:
   - Home:
       - Introduction: index.md
       - Implementations: implementations.md
+      - Contact: contact.md
       - Resources: resources.md
       - FAQ: faq.md
 
   - Server:
       - Get a Server: server/get-a-server.md
-      - Get a Domain Name: server/domain-name.md
+      - Get a Domain Name: server/get-a-domain-name.md
       - Remote Access: server/remote-access.md
-      - Reverse Proxy: server/reverse-proxy.md
       - Firewall: server/firewall.md
-      - SSL/TLS Certificate: server/ssl.md
+      - Reverse Proxy: server/reverse-proxy.md
+      - SSL/TLS Certificate: server/ssl-tls-certificate.md
 
   - Relay:
-      - Install: relay/install.md
-      - Configure: relay/config.md
-      - Service: relay/service.md
-      # - Free up Space: relay/free-up-space.md
-      - Test Your Relay: relay/test.md
+      - Khatru Pyramid: relay/khatru-pyramid.md
+      - Install: relay/khatru-pyramid/install.md
+      - Configuration: relay/khatru-pyramid/configuration.md
+      - Service: relay/khatru-pyramid/service.md
+      - Test Your Relay: relay/khatru-pyramid/test.md
+
+      - Nostream: relay/nostream.md
+      - Install: relay/nostream/install.md
+      - Configuration: relay/nostream/configuration.md
+      - Service: relay/nostream/service.md
+      - Test Your Relay: relay/nostream/test.md
+
+      - nostr-rs-relay: relay/nostr-rs-relay.md
+      - Install: relay/nostr-rs-relay/install.md
+      - Configuration: relay/nostr-rs-relay/configuration.md
+      - Service: relay/nostr-rs-relay/service.md
+      - Test Your Relay: relay/nostr-rs-relay/test.md
+
+      - strfry: relay/strfry.md
+      - Install: relay/strfry/install.md
+      - Configuration: relay/strfry/configuration.md
+      - Service: relay/strfry/service.md
+      - Test Your Relay: relay/strfry/test.md
+
+      - WoT Relay: relay/wot-relay.md
+      - Install: relay/wot-relay/install.md
+      - Configuration: relay/wot-relay/configuration.md
+      - Service: relay/wot-relay/service.md
+      - Test Your Relay: relay/wot-relay/test.md
+
+      - relay29 Khatru29: relay/relay29-khatru29.md
+      - Install: relay/relay29-khatru29/install.md
+      - Configuration: relay/relay29-khatru29/configuration.md
+      - Service: relay/relay29-khatru29/service.md
+      - Test Your Relay: relay/relay29-khatru29/test.md
+
+      - relay29 strfry29: relay/relay29-strfry29.md
+      - Install: relay/relay29-strfry29/install.md
+      - Configuration: relay/relay29-strfry29/configuration.md
+      - Service: relay/relay29-strfry29/service.md
+      - Test Your Relay: relay/relay29-strfry29/test.md
 
   - Donate:
       - bitcoin: donate/index.md
@@ -97,11 +134,11 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/@chrisatmachine
-      name: chrisatmachine on Twitter
+      link: https://x.com/node_tec
+      name: NODE-TEC on Twitter
     - icon: fontawesome/brands/youtube
-      link: https://youtube.com/@chrisatmachine
-      name: chrisatmachine on YouTube
+      link: https://www.youtube.com/@nodetec
+      name: NODE-TEC on YouTube
     - icon: fontawesome/brands/github
       link: https://github.com/nodetec
       name: NODE-TEC on GitHub

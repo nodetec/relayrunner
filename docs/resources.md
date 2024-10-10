@@ -1,16 +1,31 @@
 # Resources
 
-Learn about nostr:
+## Learn about Nostr
 
-- [nostr.com](https://nostr.how/en/relays)
-- [nostr.how](https://nostr.how)
+- [nostr.com](https://nostr.com "nostr.com")
 
-Other Guides:
+- [nostr.how](https://nostr.how "nostr.how")
 
-- [Nostr Relay Setup Guide](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide)
-- [How to Setup a Paid Nostr Relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay)
-- [Nostr Relay Quick Start](https://zbd.dev/knowledge-base/guides/nostr-relay)
+- [Nostr GitHub](https://github.com/nostr-protocol/nostr "Nostr GitHub")
 
-Relay Quickstart:
+- [NIPs](https://github.com/nostr-protocol/nips "NIPs")
 
-- [relay.tools](https://relay.tools/)
+## Other Guides
+
+- [Nostr Relay Setup Guide](https://github.com/BlockChainCaffe/Nostr-Relay-Setup-Guide "Nostr Relay Setup Guide")
+
+- [How to Setup a Paid Nostr Relay](https://andreneves.xyz/p/how-to-setup-a-paid-nostr-relay "How to Setup a Paid Nostr Relay")
+
+- [Nostr Relay Quick Start](https://zbd.dev/knowledge-base/guides/nostr-relay "Nostr Relay Quick Start")
+
+## Relay Quick Start
+
+- [relay.tools](https://relay.tools "relay.tools")
+
+- [Relay Wizard](https://relaywizard.com "Relay Wizard")
+
+## Clients
+
+- [Damus](https://damus.io "Damus")
+
+- [NoteStack](https://notestack.com "NoteStack")

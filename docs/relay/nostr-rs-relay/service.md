@@ -4,13 +4,17 @@ A service is a long-running process that can be started and stopped. It can be u
 
 ## Create User
 
-Create a new user called `nostr` to run the relay service. Creating a new user is a good practice to isolate the service from the rest of the system.
+Create a new user called `nostr` to run the relay service:
 
 ```bash
 sudo adduser --disabled-login nostr
 ```
 
+Creating a new user is a good practice to isolate the service from the rest of the system.
+
 ## Change ownership for data directory
+
+Change ownership of the relay data directory:
 
 ```bash
 chown -R nostr:nostr /var/lib/nostr-rs-relay
