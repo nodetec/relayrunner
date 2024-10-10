@@ -1,7 +1,3 @@
-Ask me questions on nostr and maybe I'll answer them here.
+# FAQ
 
-pubkey: 
-
-```
-npub1ygzj9skr9val9yqxkf67yf9jshtyhvvl0x76jp5er09nsc0p3j6qr260k2
-```
+If your question wasn't answered here, reach out to us on [Nostr](https://nostr.com "Nostr"). We'll update this page with the answers.

@@ -1,7 +1,5 @@
 # Configuration
 
-Update the `nostr-rs-relay` config file with your information and preferences:
-
 ```bash
 mkdir /etc/nostr-rs-relay
 cd /etc/nostr-rs-relay
@@ -26,7 +24,7 @@ Here are some important settings:
 
 - `data_directory` - The directory where your relay will store data. We'll set this to `/var/lib/nostr-rs-relay/data`.
 
-- `max_conn` - Maximum number of SQLite reader connections.  Recommend setting this to approx the number of CPU cores.
+- `max_conn` - Maximum number of SQLite reader connections. Recommend setting this to approx the number of CPU cores.
 
 - `address` - The address your relay will listen on. We'll set this to `127.0.0.1`.
 

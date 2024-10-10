@@ -26,9 +26,9 @@ You'll learn how to:
 
 - Set up remote access using SSH
 
-- Configure nginx
-
 - Set up a firewall
+
+- Configure Nginx
 
 - Obtain and set up an SSL/TLS certificate
 

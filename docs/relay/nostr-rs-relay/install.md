@@ -12,13 +12,13 @@ apt install build-essential cmake protobuf-compiler pkg-config libssl-dev
 
 We'll also need to install `git` and `rust` to clone and compile the repository.
 
-git:
+Install git by running:
 
 ```bash
 apt install git
 ```
 
-rust:
+Install rust by running:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
