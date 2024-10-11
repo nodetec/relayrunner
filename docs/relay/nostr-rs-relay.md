@@ -1,1 +1,0 @@
-# nostr-rs-relay

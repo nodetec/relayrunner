@@ -1,5 +1,7 @@
 # WebSocket Connection
 
+We're now going to set up the upstream WebSocket connection by editing the Nginx config file.
+
 Replace the contents of `/etc/nginx/conf.d/relay_relayrunner_xyz.conf` with the following configuration where `relay_relayrunner_xyz.conf` should be replaced by whatever name you used for your Nginx config file:
 
 ```nginx title="relay_relayrunner_xyz.conf"
@@ -9,7 +11,7 @@ map $http_upgrade $connection_upgrade {
 }
 
 upstream nostr_rs_relay_websocket { # can replace with a unique upstream WebSocket name that you choose
-    server 127.0.0.1:8080;
+    server 127.0.0.1:8080; # can replace with the address and port you set in your config file
 }
 
 server {
@@ -106,6 +108,30 @@ server {
 
 Be sure to replace `relay.relayrunner.xyz` with your domain name and `/var/www/relay.relayrunner.xyz` with the directory you used to store the challenge files in.
 
-You can also replace `nostr_rs_relay_websocket` with a unique upstream WebSocket name that you choose.
+You can also replace `nostr_rs_relay_websocket` with a unique upstream WebSocket name that you choose, and you also have the option to replace `127.0.0.1:8080` with the address and port you set in your nostr-rs-relay config file.
 
 The proxy headers specified in the `location` block above, the SSL/TLS directives, and the security headers specified above can be changed to meet the specific needs of your relay. There are even more strict values that can be set especially for the `Permissions-Policy` and `Content-Security-Policy` headers depending on your requirements. Be sure to test any changes you make are compatible with the nostr-rs-relay implementation.
+
+## Test Nginx
+
+Now you can test your Nginx configuration:
+
+```bash
+nginx -t
+```
+
+If this command fails, you most likely have a syntax error in your Nginx config file.
+
+## Reload Nginx
+
+After successfully testing your Nginx config file, you can reload Nginx to apply the changes:
+
+```bash
+systemctl reload nginx
+```
+
+## View Website
+
+After setting up the upstream WebSocket connection, you can open up a browser and navigate to your relay's domain, e.g., `relay.relayrunner.xyz`.
+
+This should show the nostr-rs-relay default HTML page which displays the following text `Please use a Nostr client to connect`. If you set a custom relay HTML page in the nostr-rs-relay config file, you should see that page instead.

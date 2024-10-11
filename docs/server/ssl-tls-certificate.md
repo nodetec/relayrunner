@@ -44,7 +44,7 @@ If you don't want to provide an email, leave the input empty. It's possible to a
 
 If you do provide an email, you'll be asked if you want to share your email with the Electronic Frontier Foundation (EFF) to receive news, campaigns, ways to support digital freedom, etc. If you don't want to receive EFF emails, type `n` and press enter.
 
-To add an email to your Certbot account and to update the email associated with your Certbot account run the following command:
+To add an email to your Certbot account and to update the email associated with your Certbot account run:
 
 ```bash
 certbot update_account --email your-email@example.com
