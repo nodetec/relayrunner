@@ -1,12 +1,12 @@
 # Test your Relay
 
-We'll use the cli tool `nak` to test our Relay. If you haven't installed it yet, you can do so by running:
+We'll use the CLI tool `nak` to test our relay. If you haven't installed it yet, you can do so by running:
 
 ```bash
 go install github.com/fiatjaf/nak@latest
 ```
 
-If you don't have go installed, you can download the latest release from the [releases page](https://go.dev/doc/install)
+If you don't have go installed, you can download the latest release from the [releases page](https://go.dev/doc/install "releases page")
 
 ## Test the Relay
 

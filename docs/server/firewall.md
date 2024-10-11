@@ -4,9 +4,19 @@ By setting up a firewall we’ll be able to monitor, allow, and block incoming a
 
 We’ll be using the [Uncomplicated Firewall (UFW)](https://launchpad.net/ufw "Uncomplicated Firewall (UFW)") which is a firewall configuration tool that allows us to easily manage a [netfilter](https://www.netfilter.org/ "netfilter") firewall by using the provided `ufw` command.
 
+## Update your Server
+
+You should update your server to make sure you have the latest software.
+
+You can do this by running:
+
+```bash
+apt update && apt upgrade -y
+```
+
 ## Install UFW
 
-To install UFW run the following command:
+To install UFW run:
 
 ```bash
 apt install ufw
@@ -14,7 +24,7 @@ apt install ufw
 
 ## Status
 
-To check the status of UFW run the following command:
+To check the status of UFW run:
 
 ```bash
 ufw status
@@ -32,7 +42,7 @@ The following commands can be run to reset the default behavior of UFW for incom
 
 ### Deny Incoming
 
-To deny all incoming connections run the following command:
+To deny all incoming connections run:
 
 ```bash
 ufw default deny incoming
@@ -40,7 +50,7 @@ ufw default deny incoming
 
 ### Allow Outgoing
 
-To allow all outgoing connections run the following command:
+To allow all outgoing connections run:
 
 ```bash
 ufw default allow outgoing
@@ -70,7 +80,7 @@ Here `<port-number>` should be replaced with the custom listening port number yo
 
 We're going to set up an Nginx reverse proxy in the next section, so we're going to allow incoming HTTP and HTTPS connections on ports `80` and `443`, respectively.
 
-To allow incoming HTTP and HTTPS connections you can run the following command:
+To allow incoming HTTP and HTTPS connections you can run:
 
 ```bash
 ufw allow 'Nginx Full'
@@ -92,7 +102,7 @@ ufw logging off
 
 After setting the incoming connections rules and setting the logging preference, we’re now ready to enable UFW which will activate it and apply the rules we set.
 
-To enable UFW run the following command:
+To enable UFW run:
 
 ```bash
 ufw enable
@@ -108,7 +118,7 @@ If you successfully configured the rules for the incoming SSH connections, then 
 
 ## Check Status
 
-After enabling UFW, you can check the status by running the following command:
+After enabling UFW, you can check the status by running:
 
 ```bash
 ufw status
@@ -122,7 +132,7 @@ The status of your firewall should look similar to the following:
 
 ## Enable on Boot
 
-UFW should already be enabled to start automatically on boot, but if it isn’t then run the following command:
+UFW should already be enabled to start automatically on boot, but if it isn’t then run:
 
 ```bash
 systemctl enable ufw

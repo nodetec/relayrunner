@@ -44,7 +44,7 @@ You'll learn how to:
 
 This site use [MKDocs Material](https://squidfunk.github.io/mkdocs-material/ "MKDocs Material").
 
-To get started, fork and clone the repository, then run the following commands:
+To get started, fork and clone the repository, then run following commands:
 
 Enter the project directory:
 
@@ -76,7 +76,7 @@ Install python dependencies:
 pip install -r requirements.txt
 ```
 
-To run the site locally, run the following command:
+To run the site locally, run:
 
 ```bash
 mkdocs serve

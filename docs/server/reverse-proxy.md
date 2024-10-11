@@ -6,19 +6,9 @@ We'll be setting up an HTTP server with an upstream backend WebSocket server.
 
 Since the server only uses HTTP, the communication between the client and the server isn't encrypted. We'll be going over how to set up an SSL/TLS certificate in the next section to enable HTTPS which will encrypt the communication between the client and the server.
 
-## Update your Server
-
-You should update your server to make sure you have the latest software.
-
-You can do this by running the following command:
-
-```bash
-apt update && apt upgrade -y
-```
-
 ## Install Nginx
 
-Install Nginx by running the following command:
+Install Nginx by running:
 
 ```bash
 apt install nginx
@@ -38,7 +28,7 @@ You can name the file whatever you'd like, but it should end with `.conf`.
 
 We'll be naming the file using the `relay` subdomain we previously set up in [Namecheap](https://www.namecheap.com "Namecheap"), i.e., `relay.relayrunner.xyz`.
 
-To create the file run the following command:
+To create the file run:
 
 ```bash
 touch relay_relayrunner_xyz.conf

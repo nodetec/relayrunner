@@ -6,7 +6,7 @@ You'll need to access your server remotely to install software, update the serve
 
 You'll need to login to your server using SSH.
 
-You can do this by running the following command:
+You can do this by running:
 
 ```bash
 ssh root@relayrunner.xyz
@@ -40,7 +40,7 @@ After successfully logging into your server, it's recommended to set up public k
 
 ## Exit SSH Server
 
-To exit the SSH server session run the following command:
+To exit the SSH server session run:
 
 ```bash
 exit
@@ -97,7 +97,7 @@ Before disabling password authentication, make sure you’re able to login with 
 
 To start SSH into the relay using public key authentication if you’re not already logged in.
 
-Next, we need to open the `sshd_config` file on the relay by running the following command:
+Next, we need to open the `sshd_config` file on the relay by running:
 
 ```bash
 nano /etc/ssh/sshd_config
@@ -129,7 +129,7 @@ UsePAM no
 
 After editing the file, save and exit.
 
-For the changes to take effect we need to reload the SSH server which we can do by running the following command:
+For the changes to take effect we need to reload the SSH server which we can do by running:
 
 ```bash
 systemctl reload sshd
