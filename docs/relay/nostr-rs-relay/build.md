@@ -46,8 +46,6 @@ cargo --version
 
 ## Clone the Repository
 
-We're now ready to clone the nostr-rs-relay repository.
-
 We'll be downloading the repository to the `/tmp` directory which is cleared when the system reboots. We’ll be downloading files associated with the installation of nostr-rs-relay here because we won’t need these files after the installation process is completed.
 
 Here’s how to navigate to the `/tmp` directory:

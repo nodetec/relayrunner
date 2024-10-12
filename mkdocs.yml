@@ -18,9 +18,12 @@ nav:
 
   - Relay:
       - Khatru Pyramid:
+          - Intro: relay/khatru-pyramid/intro.md
+          - Build: relay/khatru-pyramid/build.md
           - Install: relay/khatru-pyramid/install.md
           - Configuration: relay/khatru-pyramid/configuration.md
           - Service: relay/khatru-pyramid/service.md
+          - WebSocket Connection: relay/khatru-pyramid/websocket-connection.md
           - Test Your Relay: relay/khatru-pyramid/test.md
 
       - Nostream:
