@@ -1,3 +1,3 @@
-# Configuration
+# Intro
 
 🚧 Under Construction 🚧
