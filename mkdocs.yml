@@ -78,7 +78,7 @@ nav:
           - Install: relay/strfry29/install.md
           - Configuration: relay/strfry29/configuration.md
           - Service: relay/strfry29/service.md
-          - WebSocket Connection: relay/relay29/websocket-connection.md
+          - WebSocket Connection: relay/strfry29/websocket-connection.md
           - Test Your Relay: relay/strfry29/test.md
 
   - Donate:
