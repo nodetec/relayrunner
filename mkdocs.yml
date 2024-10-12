@@ -53,17 +53,20 @@ nav:
           - Service: relay/wot-relay/service.md
           - Test Your Relay: relay/wot-relay/test.md
 
-      - relay29 Khatru29:
-          - Install: relay/relay29-khatru29/install.md
-          - Configuration: relay/relay29-khatru29/configuration.md
-          - Service: relay/relay29-khatru29/service.md
-          - Test Your Relay: relay/relay29-khatru29/test.md
+      - Khatru29:
+          - Intro: relay/khatru29/intro.md
+          - Build: relay/khatru29/build.md
+          - Install: relay/khatru29/install.md
+          - Configuration: relay/khatru29/configuration.md
+          - Service: relay/khatru29/service.md
+          - WebSocket Connection: relay/khatru29/websocket-connection.md
+          - Test Your Relay: relay/khatru29/test.md
 
-      - relay29 strfry29:
-          - Install: relay/relay29-strfry29/install.md
-          - Configuration: relay/relay29-strfry29/configuration.md
-          - Service: relay/relay29-strfry29/service.md
-          - Test Your Relay: relay/relay29-strfry29/test.md
+      - strfry29:
+          - Install: relay/strfry29/install.md
+          - Configuration: relay/strfry29/configuration.md
+          - Service: relay/strfry29/service.md
+          - Test Your Relay: relay/strfry29/test.md
 
   - Donate:
       - bitcoin: donate/index.md
