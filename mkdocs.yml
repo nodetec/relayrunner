@@ -27,9 +27,12 @@ nav:
           - Test Your Relay: relay/khatru-pyramid/test.md
 
       - Nostream:
+          - Intro: relay/nostream/intro.md
+          - Build: relay/nostream/build.md
           - Install: relay/nostream/install.md
           - Configuration: relay/nostream/configuration.md
           - Service: relay/nostream/service.md
+          - WebSocket Connection: relay/nostream/websocket-connection.md
           - Test Your Relay: relay/nostream/test.md
 
       - nostr-rs-relay:
@@ -42,15 +45,22 @@ nav:
           - Test Your Relay: relay/nostr-rs-relay/test.md
 
       - strfry:
+          - Intro: relay/strfry/intro.md
+          - Build: relay/strfry/build.md
           - Install: relay/strfry/install.md
           - Configuration: relay/strfry/configuration.md
           - Service: relay/strfry/service.md
+          - WebSocket Connection: relay/strfry/websocket-connection.md
           - Test Your Relay: relay/strfry/test.md
+          - Upgrade: relay/strfry/upgrade.md
 
       - WoT Relay:
+          - Intro: relay/wot-relay/intro.md
+          - Build: relay/wot-relay/build.md
           - Install: relay/wot-relay/install.md
           - Configuration: relay/wot-relay/configuration.md
           - Service: relay/wot-relay/service.md
+          - WebSocket Connection: relay/wot-relay/websocket-connection.md
           - Test Your Relay: relay/wot-relay/test.md
 
       - Khatru29:
@@ -63,9 +73,12 @@ nav:
           - Test Your Relay: relay/khatru29/test.md
 
       - strfry29:
+          - Intro: relay/strfry29/intro.md
+          - Build: relay/strfry29/build.md
           - Install: relay/strfry29/install.md
           - Configuration: relay/strfry29/configuration.md
           - Service: relay/strfry29/service.md
+          - WebSocket Connection: relay/relay29/websocket-connection.md
           - Test Your Relay: relay/strfry29/test.md
 
   - Donate:

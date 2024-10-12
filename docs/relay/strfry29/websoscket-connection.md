@@ -1,3 +1,3 @@
-# Configuration
+# WebSocket Connection
 
 🚧 Under Construction 🚧
