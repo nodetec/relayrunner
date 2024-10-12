@@ -4,7 +4,7 @@ After building the binary, we're now going to "install" nostr-rs-relay by using 
 
 We’re actually not installing nostr-rs-relay though since the `install` command isn’t used to install software packages despite its name.
 
-The `install` command is way to copy files to a target location similar to the copy command, i.e., `cp`, but it gives us more control by allowing us to use advanced features when copying the files.
+The `install` command is a way to copy files to a target location similar to the copy command, i.e., `cp`, but it gives us more control by allowing us to use advanced features when copying the files.
 
 Some of these advanced features include the abilities to adjust permission modes like when using the `chmod` command, adjust ownership permissions like when using the `chown` command, to make backups of the files, and to preserve the metadata of the files, e.g., the access and modifications times of the files.
 
