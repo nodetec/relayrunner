@@ -10,7 +10,7 @@ Before building the binary, we need to install the dependencies.
 
 Since strfry29 is a plugin for strfry, you need to first make sure you have properly installed and configured strfry before continuing.
 
-You can follow along with the [strfry guide](/relay/strfry/intro/ "strfry guide") to install and configure strfry.
+You can follow along with the [strfry guide](/relays/strfry/intro/ "strfry guide") to install and configure strfry.
 
 ### Go
 
