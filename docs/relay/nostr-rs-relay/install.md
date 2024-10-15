@@ -54,8 +54,8 @@ If you installed the repository in the `/tmp` directory, you don't have to manua
 
 ## Uninstall Compiler Tools
 
-You can reclaim more disk space by removing the `.rustup` directory located in the `/root` directory:
+You can reclaim more disk space by removing the `.rustup` directory located in the `$HOME` directory:
 
 ```bash
-rm -rf /root/.rustup
+rm -rf $HOME/.rustup
 ```

@@ -11,7 +11,7 @@ map $http_upgrade $connection_upgrade {
 }
 
 upstream strfry_websocket { # can replace with a unique upstream WebSocket name that you choose
-    server 127.0.0.1:7777; # can replace with the port you set in your environment file
+    server 127.0.0.1:7777; # can replace with the address and port you set in your config file
 }
 
 server {

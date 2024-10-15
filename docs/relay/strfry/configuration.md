@@ -68,24 +68,24 @@ nano /etc/strfry/strfry.conf
 
 Here are some of the settings you may want to change in the config file:
 
-- `db` - The directory where your relay will store the LMDB database. The default value is set to `./strfry-db`. We'll set this to `/var/lib/strfry/db`. Restart required after updating.
+- `db` - The directory where your relay will store the LMDB database. The default value is set to `"./strfry-db"`. We'll set this to `"/var/lib/strfry/db"`. Restart required after updating.
 
-- `bind` - The address your relay will listen on. The default value is `127.0.0.1`. To listen on all interfaces set this to `0.0.0.0`. Restart required after updating.
+- `bind` - The address your relay will listen on. The default value is `"127.0.0.1"`. To listen on all interfaces set this to `"0.0.0.0"`. Restart required after updating.
 
 - `port` - The port your relay will use for the WebSocket connection. The default value is `7777`. Restart required after updating.
 
 - `nofiles` - Sets the OS limit on the maximum number of open files/sockets. If set to `0`, strfry won't attempt to set this value. The default value is `1000000`. We'll set this to `0`. Restart required after updating.
 
-- `realIpHeader` - Used to specify the HTTP header that contains the client's real IP before reverse proxying. The default value is `""`, and the input must be lowercase. We'll set this to `x-forwarded-for`.
+- `realIpHeader` - Used to specify the HTTP header that contains the client's real IP before reverse proxying. The default value is `""`, and the input must be lowercase. We'll set this to `"x-forwarded-for"`.
 
-- `name` - The name of your relay which will be shared with Nostr clients. Must be less than 30 characters. The default value is `strfry default`. We'll set this to `Relay Runner's strfry Relay`.
+- `name` - The name of your relay which will be shared with Nostr clients. Must be less than 30 characters. The default value is `"strfry default"`. We'll set this to `"Relay Runner's strfry Relay"`.
 
-- `description` - A description of your relay. The default value is `This is a strfry instance.`. We'll set this to `This is a Relay Runner strfry instance`.
+- `description` - A description of your relay. The default value is `"This is a strfry instance."`. We'll set this to `"This is a Relay Runner strfry instance"`.
 
-- `pubkey` - Your Nostr public key (32-byte hex, not npub) used for administrative requests. The default value is `""`. We'll set this to `3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16`.
+- `pubkey` - Your Nostr public key (32-byte hex, not npub) used for administrative requests. The default value is `""`. We'll set this to `"3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16"`.
 
-- `contact` - Alternative contact used for administrative requests. Can be an email or website and should be a URI using schemes like `mailto` or `https`. The default value is `""`. We'll set this to `mailto:devs@node-tec.com`.
+- `contact` - Alternative contact used for administrative requests. Can be an email or website and should be a URI using schemes like `mailto` or `https`. The default value is `""`. We'll set this to `"mailto:devs@node-tec.com"`.
 
-- `icon` - URL to your relay's icon, e.g., `https://example.com/your-relay-icon.png`. It's recommended to be in squared shape.
+- `icon` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. It's recommended to be in squared shape.
 
-- `nips` - List of NIPs supported by the relay. The value should be a JSON array, e.g., `[1,2]` or an empty string. The default value is `""`.
+- `nips` - List of NIPs supported by the relay. The value should be a JSON array, e.g., `"[1,2]"` or an empty string. The default value is `""` which shows the NIPs supported by default.

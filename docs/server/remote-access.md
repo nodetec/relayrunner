@@ -64,7 +64,7 @@ You can copy your SSH public key to your relay by running the following command 
 ssh-copy-id -i <path-to-public-key-file> root@relayrunner.xyz
 ```
 
-Be sure to replace `<path-to-public-key-file>` with the path to the SSH public key you're using with your relay which is located in the `/root/.ssh` directory if you used the default location when generating your SSH key pair.
+Be sure to replace `<path-to-public-key-file>` with the path to the SSH public key you're using with your relay which is located in the `$HOME/.ssh` directory if you used the default location when generating your SSH key pair.
 
 Also, be sure to replace `relayrunner.xyz` with the domain name you're using with your relay.
 
@@ -77,7 +77,7 @@ Once you successfully authenticate the user you’ll see output similar to:
 The public key will be appended to the `authorized_keys`
 file on the relay which will be created if it doesn’t exist, and the connection will be closed.
 
-The `authorized_keys` file contains all of the public keys that have been copied to the relay and is located in the `/root/.ssh` directory.
+The `authorized_keys` file contains all of the public keys that have been copied to the relay and is located in the `$HOME/.ssh` directory.
 
 If you ever want to remove a public key, then open the `authorized_keys` file, delete the line containing the public key you want to remove, and save the file.
 
