@@ -1,4 +1,4 @@
-# Intro
+# Introduction
 
 [strfry](https://github.com/hoytech/strfry "strfry") is a relay implementation written in C++ that supports multiple NIPs and has numerous features.
 

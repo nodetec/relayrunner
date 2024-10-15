@@ -1,4 +1,4 @@
-# Intro
+# Introduction
 
 The repository [relay29](https://github.com/fiatjaf/relay29 "relay29") is a library for creating [NIP-29](https://github.com/nostr-protocol/nips/blob/master/29.md "NIP-29") relay-based groups. Since NIP-29 requires relays to have more of an active role in making the groups work with the rules, the relay29 library can be used to handle these requirements.
 

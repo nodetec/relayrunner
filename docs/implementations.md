@@ -1,6 +1,6 @@
 # Relay Implementations
 
-There are many different relay implementations available. This guide will demonstrate how to set up multiple implementations. The implementation you choose depends on your use case.
+There are many different relay implementations available. The guides will demonstrate how to set up a specific implementation. The implementation you choose depends on your use case.
 
 Implementations:
 
@@ -14,8 +14,6 @@ Implementations:
 
 - [WoT Relay](https://github.com/bitvora/wot-relay/tree/master "WoT Relay")
 
-- [relay29 Khatru29](https://github.com/fiatjaf/relay29/tree/v0.4.0/examples/groups.fiatjaf.com "relay29 Khatru29")
+- [Khatru29](https://github.com/fiatjaf/relay29/tree/v0.4.0/examples/groups.fiatjaf.com "Khatru29")
 
-- [relay29 strfry29](https://github.com/fiatjaf/relay29/tree/v0.4.0/strfry29 "relay29 strfry29")
-
-After following this guide, you should have enough knowledge to setup any of these implementations.
+- [strfry29](https://github.com/fiatjaf/relay29/tree/v0.4.0/strfry29 "strfry29")

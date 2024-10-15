@@ -3,9 +3,6 @@ nav:
   - Home:
       - Introduction: index.md
       - Implementations: implementations.md
-      - Contact: contact.md
-      - Resources: resources.md
-      - FAQ: faq.md
 
   - Server:
       - Get a Server: server/get-a-server.md
@@ -17,73 +14,85 @@ nav:
       - SSL/TLS Certificate: server/ssl-tls-certificate.md
       - Nostr User: server/nostr-user.md
 
-  - Relay:
+  - Relays:
       - Khatru Pyramid:
-          - Intro: relay/khatru-pyramid/intro.md
-          - Build: relay/khatru-pyramid/build.md
-          - Install: relay/khatru-pyramid/install.md
-          - Configuration: relay/khatru-pyramid/configuration.md
-          - Service: relay/khatru-pyramid/service.md
-          - WebSocket Connection: relay/khatru-pyramid/websocket-connection.md
-          - Test Your Relay: relay/khatru-pyramid/test.md
+          - Introduction: relays/khatru-pyramid/introduction.md
+          - Build: relays/khatru-pyramid/build.md
+          - Install: relays/khatru-pyramid/install.md
+          - Configuration: relays/khatru-pyramid/configuration.md
+          - Service: relays/khatru-pyramid/service.md
+          - WebSocket Connection: relays/khatru-pyramid/websocket-connection.md
+          - Test Your Relay: relays/khatru-pyramid/test.md
 
       - Nostream:
-          - Intro: relay/nostream/intro.md
-          - Build: relay/nostream/build.md
-          - Install: relay/nostream/install.md
-          - Configuration: relay/nostream/configuration.md
-          - Service: relay/nostream/service.md
-          - WebSocket Connection: relay/nostream/websocket-connection.md
-          - Test Your Relay: relay/nostream/test.md
+          - Introduction: relays/nostream/introduction.md
+          - Build: relays/nostream/build.md
+          - Install: relays/nostream/install.md
+          - Configuration: relays/nostream/configuration.md
+          - Service: relays/nostream/service.md
+          - WebSocket Connection: relays/nostream/websocket-connection.md
+          - Test Your Relay: relays/nostream/test.md
 
       - nostr-rs-relay:
-          - Intro: relay/nostr-rs-relay/intro.md
-          - Build: relay/nostr-rs-relay/build.md
-          - Install: relay/nostr-rs-relay/install.md
-          - Configuration: relay/nostr-rs-relay/configuration.md
-          - Service: relay/nostr-rs-relay/service.md
-          - WebSocket Connection: relay/nostr-rs-relay/websocket-connection.md
-          - Test Your Relay: relay/nostr-rs-relay/test.md
+          - Introduction: relays/nostr-rs-relay/introduction.md
+          - Build: relays/nostr-rs-relay/build.md
+          - Install: relays/nostr-rs-relay/install.md
+          - Configuration: relays/nostr-rs-relay/configuration.md
+          - Service: relays/nostr-rs-relay/service.md
+          - WebSocket Connection: relays/nostr-rs-relay/websocket-connection.md
+          - Test Your Relay: relays/nostr-rs-relay/test.md
 
       - strfry:
-          - Intro: relay/strfry/intro.md
-          - Build: relay/strfry/build.md
-          - Install: relay/strfry/install.md
-          - Configuration: relay/strfry/configuration.md
-          - Service: relay/strfry/service.md
-          - WebSocket Connection: relay/strfry/websocket-connection.md
-          - Test Your Relay: relay/strfry/test.md
-          - Upgrade: relay/strfry/upgrade.md
+          - Introduction: relays/strfry/introduction.md
+          - Build: relays/strfry/build.md
+          - Install: relays/strfry/install.md
+          - Configuration: relays/strfry/configuration.md
+          - Service: relays/strfry/service.md
+          - WebSocket Connection: relays/strfry/websocket-connection.md
+          - Test Your Relay: relays/strfry/test.md
+          - Upgrade: relays/strfry/upgrade.md
 
       - WoT Relay:
-          - Intro: relay/wot-relay/intro.md
-          - Build: relay/wot-relay/build.md
-          - Install: relay/wot-relay/install.md
-          - Configuration: relay/wot-relay/configuration.md
-          - Service: relay/wot-relay/service.md
-          - WebSocket Connection: relay/wot-relay/websocket-connection.md
-          - Test Your Relay: relay/wot-relay/test.md
+          - Introduction: relays/wot-relay/introduction.md
+          - Build: relays/wot-relay/build.md
+          - Install: relays/wot-relay/install.md
+          - Configuration: relays/wot-relay/configuration.md
+          - Service: relays/wot-relay/service.md
+          - WebSocket Connection: relays/wot-relay/websocket-connection.md
+          - Test Your Relay: relays/wot-relay/test.md
 
       - Khatru29:
-          - Intro: relay/khatru29/intro.md
-          - Build: relay/khatru29/build.md
-          - Install: relay/khatru29/install.md
-          - Configuration: relay/khatru29/configuration.md
-          - Service: relay/khatru29/service.md
-          - WebSocket Connection: relay/khatru29/websocket-connection.md
-          - Test Your Relay: relay/khatru29/test.md
+          - Introduction: relays/khatru29/introduction.md
+          - Build: relays/khatru29/build.md
+          - Install: relays/khatru29/install.md
+          - Configuration: relays/khatru29/configuration.md
+          - Service: relays/khatru29/service.md
+          - WebSocket Connection: relays/khatru29/websocket-connection.md
+          - Test Your Relay: relays/khatru29/test.md
 
       - strfry29:
-          - Intro: relay/strfry29/intro.md
-          - Build: relay/strfry29/build.md
-          - Install: relay/strfry29/install.md
-          - Configuration: relay/strfry29/configuration.md
-          - Service: relay/strfry29/service.md
-          - WebSocket Connection: relay/strfry29/websocket-connection.md
-          - Test Your Relay: relay/strfry29/test.md
+          - Introduction: relays/strfry29/introduction.md
+          - Build: relays/strfry29/build.md
+          - Install: relays/strfry29/install.md
+          - Configuration: relays/strfry29/configuration.md
+          - Service: relays/strfry29/service.md
+          - WebSocket Connection: relays/strfry29/websocket-connection.md
+          - Test Your Relay: relays/strfry29/test.md
+
+  - FAQ:
+      - Introduction: faq/index.md
+
+  - Resources:
+      - Nostr: resources/nostr.md
+      - Nginx: resources/nginx.md
+
+  - Contact:
+      - NODE-TEC: contact/node-tec.md
+      - Developers: contact/developers.md
 
   - Donate:
-      - bitcoin: donate/index.md
+      - Bitcoin: donate/bitcoin.md
+      - Fiat: donate/fiat.md
 
 site_name: Relay Runner
 site_url: https://relayrunner.org/

@@ -1,4 +1,6 @@
-# Resources
+# Nostr
+
+If you want to learn more about Nostr, be sure to check out the resources below.
 
 ## Learn about Nostr
 
