@@ -54,7 +54,7 @@ Here’s how to navigate to the `/tmp` directory:
 cd /tmp
 ```
 
-If you want to keep the nostr-rs-relay repository on your relay, then you can download the repository in a persistent directory, e.g., the `/root` directory.
+If you want to keep the nostr-rs-relay repository on your relay, then you can download the repository in a persistent directory, e.g., the `$HOME` directory.
 
 We're now ready to clone the nostr-rs-relay repository:
 

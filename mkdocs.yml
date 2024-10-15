@@ -11,6 +11,7 @@ nav:
       - Get a Server: server/get-a-server.md
       - Get a Domain Name: server/get-a-domain-name.md
       - Remote Access: server/remote-access.md
+      - Upgrade: server/upgrade.md
       - Firewall: server/firewall.md
       - Reverse Proxy: server/reverse-proxy.md
       - SSL/TLS Certificate: server/ssl-tls-certificate.md

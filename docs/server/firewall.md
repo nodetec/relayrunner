@@ -4,16 +4,6 @@ By setting up a firewall we’ll be able to monitor, allow, and block incoming a
 
 We’ll be using the [Uncomplicated Firewall (UFW)](https://launchpad.net/ufw "Uncomplicated Firewall (UFW)") which is a firewall configuration tool that allows us to easily manage a [netfilter](https://www.netfilter.org/ "netfilter") firewall by using the provided `ufw` command.
 
-## Update your Server
-
-You should update your server to make sure you have the latest software.
-
-You can do this by running:
-
-```bash
-apt update && apt upgrade -y
-```
-
 ## Install UFW
 
 To install UFW run:
@@ -71,7 +61,7 @@ ufw allow ssh
 If you changed the default port for the SSH server, then run the following command to allow incoming SSH connections on the custom port:
 
 ```bash
-ufw allow <port-number>
+ufw allow <port-number>/tcp
 ```
 
 Here `<port-number>` should be replaced with the custom listening port number you set for the SSH server.
