@@ -23,6 +23,7 @@ nav:
           - Service: relays/khatru-pyramid/service.md
           - WebSocket Connection: relays/khatru-pyramid/websocket-connection.md
           - Test Your Relay: relays/khatru-pyramid/test.md
+          - Upgrade: relays/khatru-pyramid/upgrade.md
 
       - Nostream:
           - Introduction: relays/nostream/introduction.md
@@ -32,6 +33,7 @@ nav:
           - Service: relays/nostream/service.md
           - WebSocket Connection: relays/nostream/websocket-connection.md
           - Test Your Relay: relays/nostream/test.md
+          - Upgrade: relays/nostream/upgrade.md
 
       - nostr-rs-relay:
           - Introduction: relays/nostr-rs-relay/introduction.md
@@ -41,6 +43,7 @@ nav:
           - Service: relays/nostr-rs-relay/service.md
           - WebSocket Connection: relays/nostr-rs-relay/websocket-connection.md
           - Test Your Relay: relays/nostr-rs-relay/test.md
+          - Upgrade: relays/nostr-rs-relay/upgrade.md
 
       - strfry:
           - Introduction: relays/strfry/introduction.md
@@ -60,6 +63,7 @@ nav:
           - Service: relays/wot-relay/service.md
           - WebSocket Connection: relays/wot-relay/websocket-connection.md
           - Test Your Relay: relays/wot-relay/test.md
+          - Upgrade: relays/wot-relay/upgrade.md
 
       - Khatru29:
           - Introduction: relays/khatru29/introduction.md
@@ -69,6 +73,7 @@ nav:
           - Service: relays/khatru29/service.md
           - WebSocket Connection: relays/khatru29/websocket-connection.md
           - Test Your Relay: relays/khatru29/test.md
+          - Upgrade: relays/khatru29/upgrade.md
 
       - strfry29:
           - Introduction: relays/strfry29/introduction.md
@@ -78,6 +83,7 @@ nav:
           - Service: relays/strfry29/service.md
           - WebSocket Connection: relays/strfry29/websocket-connection.md
           - Test Your Relay: relays/strfry29/test.md
+          - Upgrade: relays/strfry29/upgrade.md
 
   - FAQ:
       - Introduction: faq/index.md
