@@ -4,12 +4,12 @@ We're now going to discuss the strfry config file including how to set some of t
 
 ## Config File
 
-The strfry config file is located in the strfry repository we cloned and is named `strfry.conf`. In our case the file is located in the following directory `$HOME/strfry`.
+The strfry config file is located in the strfry repository we cloned and is named `strfry.conf`. In our case the file is located in the following directory `$HOME/nostr/relays/strfry`.
 
 To view the settings you can open the file:
 
 ```bash
-nano $HOME/strfry/strfry.conf
+nano $HOME/nostr/relays/strfry/strfry.conf
 ```
 
 ## Config Directory
@@ -23,7 +23,7 @@ mkdir /etc/strfry
 We can now copy the config file to the config directory:
 
 ```bash
-cp $HOME/strfry/strfry.conf /etc/strfry
+cp $HOME/nostr/relays/strfry/strfry.conf /etc/strfry
 ```
 
 We can change the permissions of the config directory and all of its content, i.e., the files and subdirectories inside of it:

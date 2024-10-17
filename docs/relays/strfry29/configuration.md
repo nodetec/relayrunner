@@ -6,12 +6,12 @@ Along with the strfry config file, we also have a `strfry29.json` file. This fil
 
 ## Config File
 
-The strfry config file is located in the relay29 repository we cloned and is named `strfry.conf`. In our case the file is located in the following directory `$HOME/relay29/strfry29`.
+The strfry config file is located in the relay29 repository we cloned and is named `strfry.conf`. In our case the file is located in the following directory `$HOME/nostr/relays/relay29/strfry29`.
 
 To view the settings you can open the file:
 
 ```bash
-nano $HOME/relay29/strfry29/strfry.conf
+nano $HOME/nostr/relays/relay29/strfry29/strfry.conf
 ```
 
 ## Config Directory
@@ -25,7 +25,7 @@ mkdir /etc/strfry29
 We can now copy the config file to the config directory:
 
 ```bash
-cp $HOME/relay29/strfry29/strfry.conf /etc/strfry29
+cp $HOME/nostr/relays/relay29/strfry29/strfry.conf /etc/strfry29
 ```
 
 We can change the permissions of the config directory and all of its content, i.e., the files and subdirectories inside of it:
@@ -62,18 +62,18 @@ chown -R nostr:nostr /var/lib/strfry29
 
 ## strfry29.json File
 
-The `strfry29.json` file is located in the relay29 repository we cloned. In our case the file is located in the following directory `$HOME/relay29/strfry29`.
+The `strfry29.json` file is located in the relay29 repository we cloned. In our case the file is located in the following directory `$HOME/nostr/relays/relay29/strfry29`.
 
 To view the settings you can open the file:
 
 ```bash
-nano $HOME/relay29/strfry29/strfry29.json
+nano $HOME/nostr/relays/relay29/strfry29/strfry29.json
 ```
 
 We can now copy the `strfry29.json` file to the `/usr/local/bin` directory:
 
 ```bash
-cp $HOME/relay29/strfry29/strfry29.json /usr/local/bin
+cp $HOME/nostr/relays/relay29/strfry29/strfry29.json /usr/local/bin
 ```
 
 ## Edit Config File

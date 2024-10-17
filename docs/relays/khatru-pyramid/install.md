@@ -13,7 +13,7 @@ We're going to be "installing" the `khatru-pyramid` binary to the `/usr/local/bi
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd /tmp/khatru-pyramid
+cd $HOME/nostr/relays/khatru-pyramid
 ```
 
 To "install" Khatru Pyramid we can run:

@@ -3,7 +3,7 @@
 To upgrade strfry navigate to the strfry repository, e.g.,
 
 ```bash
-cd $HOME/strfry
+cd $HOME/nostr/relays/strfry
 ```
 
 Pull the changes:

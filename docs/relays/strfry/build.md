@@ -99,7 +99,7 @@ strfry error: Unable to set NOFILES limit to 1000000, exceeds max of 524288
 Open the strfry config file:
 
 ```bash
-nano $HOME/strfry/strfry.conf
+nano $HOME/nostr/relays/strfry/strfry.conf
 ```
 
 Navigate to the line that says:

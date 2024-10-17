@@ -45,7 +45,7 @@ mkdir -p /etc/wot-relay/templates
 We can now copy the `index.html` file to the `templates` directory:
 
 ```bash
-cp $HOME/wot-relay/templates/index.html /etc/wot-relay/templates
+cp $HOME/nostr/relays/wot-relay/templates/index.html /etc/wot-relay/templates
 ```
 
 Feel free to update the `index.html` file as you see fit.
@@ -55,7 +55,7 @@ Feel free to update the `index.html` file as you see fit.
 We can now copy the `static` directory and all of its content to the `templates` directory:
 
 ```bash
-cp -R $HOME/wot-relay/templates/static /etc/wot-relay/templates
+cp -R $HOME/nostr/relays/wot-relay/templates/static /etc/wot-relay/templates
 ```
 
 ## /etc/wot-relay Permissions and Ownership

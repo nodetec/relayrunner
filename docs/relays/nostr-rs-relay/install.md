@@ -13,7 +13,7 @@ We're going to be "installing" the `nostr-rs-relay` binary to the `/usr/local/bi
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd /tmp/nostr-rs-relay/target/release
+cd $HOME/nostr/relays/nostr-rs-relay/target/release
 ```
 
 To "install" nostr-rs-relay we can run:
@@ -41,7 +41,7 @@ Once the binary has been successfully compiled and installed, you can reclaim di
 To reclaim the disk space, first navigate to the directory where you downloaded the nostr-rs-relay repository, e.g.,
 
 ```bash
-cd /tmp/nostr-rs-relay
+cd $HOME/nostr/relays/nostr-rs-relay
 ```
 
 You can now clean the compilation artifacts by running:
@@ -49,8 +49,6 @@ You can now clean the compilation artifacts by running:
 ```bash
 cargo clean
 ```
-
-If you installed the repository in the `/tmp` directory, you don't have to manually clean the compilation artifacts since they'll be deleted when the relay is rebooted. However, if you want to reclaim that disk space before rebooting the relay you can run the commands above.
 
 ## Uninstall Compiler Tools
 
