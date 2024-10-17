@@ -2,7 +2,7 @@
 
 We're now going to set up the upstream WebSocket connection by editing the Nginx config file.
 
-Replace the contents of `/etc/nginx/conf.d/relay_relayrunner_xyz.conf` with the following configuration where `relay_relayrunner_xyz.conf` should be replaced by whatever name you used for your Nginx config file:
+Replace the contents of `/etc/nginx/conf.d/relay_relayrunner_xyz.conf` with the following configuration where `relay_relayrunner_xyz.conf` should be replaced by whatever name you used for your Khatru29 Nginx config file:
 
 ```nginx title="relay_relayrunner_xyz.conf"
 map $http_upgrade $connection_upgrade {

@@ -158,7 +158,13 @@ You can now run the binary:
 DOMAIN="relay.relayrunner.xyz" RELAY_NAME="Relay Runner's Khatru29 Relay" RELAY_PRIVKEY="<your-secret-key>" ./khatru29
 ```
 
-Be sure to replace `<your-secret-key>` with your secret key. The secret key can be passed as a 32-byte hex. Also, be sure to replace `relay.relayrunner.xyz` with the domain you set up with your relay.
+Be sure to replace the values of the following:
+
+- `DOMAIN` with the domain name of your server
+
+- `RELAY_NAME` with the name you're going to use with your relay
+
+- `RELAY_PRIVKEY` with the secret key you're going to use with your relay which should be passed as a 32-byte hex
 
 Khatru29 should now be listening on `0.0.0.0:5577`. A relay database will also be created in your current directory called `db`.
 

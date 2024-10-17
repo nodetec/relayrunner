@@ -1,6 +1,6 @@
 # Configuration
 
-We're now going to discuss the strfry config file including how to set some of the settings as well as how to move the file to a config directory owned by the `nostr` user we previously created. We're also going to discuss how to create the data directory which will be owned by the `nostr` user.
+We're now going to discuss the strfry config file including how to set some of the settings as well as how to copy the file to a config directory owned by the `nostr` user we previously created. We're also going to discuss how to create the data directory which will be owned by the `nostr` user.
 
 ## Config File
 

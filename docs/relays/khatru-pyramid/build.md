@@ -142,6 +142,14 @@ You can now run the binary:
 DOMAIN="relay.relayrunner.xyz" RELAY_NAME="Relay Runner's Khatru Pyramid Relay" RELAY_PUBKEY="3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16" ./khatru-pyramid
 ```
 
+Be sure to replace the values of the following:
+
+- `DOMAIN` with the domain name of your server
+
+- `RELAY_NAME` with the name you're going to use with your relay
+
+- `RELAY_PUBKEY` with the pubkey you're using with your relay
+
 Khatru Pyramid should now be listening on `0.0.0.0:3334`. A relay database will be created in your current directory called `db` along with a file for storing user data called `users.json`.
 
 To stop the relay press `Ctrl+C`.
