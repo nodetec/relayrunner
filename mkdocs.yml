@@ -165,18 +165,27 @@ extra_css:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://x.com/node_tec
-      name: NODE-TEC on Twitter
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@nodetec
-      name: NODE-TEC on YouTube
     - icon: fontawesome/brands/github
       link: https://github.com/nodetec
       name: NODE-TEC on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@nodetec
+      name: NODE-TEC on YouTube
+    - icon: fontawesome/solid/bookmark
+      link: https://nodetec.substack.com/
+      name: NODE-TEC Substack
+    - icon: fontawesome/brands/keybase
+      link: https://keybase.io/nodetec
+      name: NODE-TEC on Keybase
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/node_tec
+      name: NODE-TEC on X
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zdKq5brhF9
       name: NODE-TEC on Discord
+    - icon: fontawesome/solid/envelope
+      link: mailto:devs@node-tec.com
+      name: NODE-TEC Email
 
 repo_url: https://github.com/nodetec/relayrunner
 repo_name: NODE-TEC/relayrunner
