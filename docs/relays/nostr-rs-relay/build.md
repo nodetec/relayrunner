@@ -10,11 +10,15 @@ It's recommended to install the following packages before building the binary:
 apt install build-essential cmake protobuf-compiler pkg-config libssl-dev
 ```
 
+### Git
+
 We also need to install Git to be able to clone the nostr-rs-relay repository:
 
 ```bash
 apt install git
 ```
+
+### Rust
 
 Lastly, we need to install Rust and Cargo to build the binary:
 
@@ -46,15 +50,17 @@ cargo --version
 
 ## Clone the Repository
 
-We'll be downloading the repository to the `/tmp` directory which is cleared when the system reboots. We’ll be downloading files associated with the installation of nostr-rs-relay here because we won’t need these files after the installation process is completed.
-
-Here’s how to navigate to the `/tmp` directory:
+Before cloning the nostr-rs-relay repository, we're going to first create the following directories in the `$HOME` directory:
 
 ```bash
-cd /tmp
+mkdir -p $HOME/nostr/relays
 ```
 
-If you want to keep the nostr-rs-relay repository on your relay, then you can download the repository in a persistent directory, e.g., the `$HOME` directory.
+We can now navigate to the `relays` directory:
+
+```bash
+cd $HOME/nostr/relays
+```
 
 We're now ready to clone the nostr-rs-relay repository:
 
@@ -67,6 +73,8 @@ After cloning the repository, navigate to the `nostr-rs-relay` directory:
 ```bash
 cd nostr-rs-relay
 ```
+
+You can use the repository to update the nostr-rs-relay, so we're going to keep the repository on the relay.
 
 ## Build nostr-rs-relay
 

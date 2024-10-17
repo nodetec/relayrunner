@@ -6,11 +6,15 @@ We're now going to discuss how to build the binary for the [groups.fiatjaf.com](
 
 Before building the binary, we need to install Go and Git.
 
+### Git
+
 We need to install Git to be able to clone the relay29 repository:
 
 ```bash
 apt install git
 ```
+
+### Go
 
 We're now going to discuss how to install Go on your relay.
 
@@ -88,15 +92,17 @@ go version go1.23.2 linux/amd64
 
 ## Clone the Repository
 
-We'll be downloading the repository to the `/tmp` directory since it's cleared when the system reboots, and we don't need the files associated with the relay29 repository after the installation process is completed.
-
-Navigate to the `/tmp` directory:
+Before cloning the relay29 repository, we're going to first create the following directories in the `$HOME` directory:
 
 ```bash
-cd /tmp
+mkdir -p $HOME/nostr/relays
 ```
 
-If you want to keep the relay29 repository on your relay, then you can download the repository in a persistent directory, e.g., your `$HOME` directory.
+We can now navigate to the `relays` directory:
+
+```bash
+cd $HOME/nostr/relays
+```
 
 We're now ready to clone the relay29 repository:
 
@@ -109,6 +115,8 @@ After cloning the repository, navigate to the `relay29/examples/groups.fiatjaf.c
 ```bash
 cd relay29/examples/groups.fiatjaf.com
 ```
+
+You can use the repository to update Khatru29, so we're going to keep the repository on the relay.
 
 ## Build Khatru29 Example
 

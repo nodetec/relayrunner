@@ -6,17 +6,23 @@ We're now going to discuss how to build the [WoT Relay](https://github.com/bitvo
 
 Before building the binary, we need to install Go, Git, and build-essential.
 
+### build-essential
+
 To install build-essential run:
 
 ```bash
 apt install build-essential
 ```
 
+### Git
+
 We need to install Git to be able to clone the WoT Relay repository:
 
 ```bash
 apt install git
 ```
+
+### Go
 
 We're now going to discuss how to install Go on your relay.
 
@@ -94,12 +100,16 @@ go version go1.23.2 linux/amd64
 
 ## Clone the Repository
 
-We'll be downloading the repository to the `$HOME` directory.
-
-Navigate to the `$HOME` directory:
+Before cloning the WoT Relay repository, we're going to first create the following directories in the `$HOME` directory:
 
 ```bash
-cd $HOME
+mkdir -p $HOME/nostr/relays
+```
+
+We can now navigate to the `relays` directory:
+
+```bash
+cd $HOME/nostr/relays
 ```
 
 We're now ready to clone the WoT Relay repository:
@@ -111,7 +121,7 @@ git clone https://github.com/bitvora/wot-relay.git
 After cloning the repository, navigate to the `wot-relay` directory:
 
 ```bash
-cd wot-relay
+cd $HOME/nostr/relays/wot-relay
 ```
 
 You can use the repository to update the WoT Relay, so we're going to keep the repository on the relay.
