@@ -12,12 +12,16 @@ apt install git g++ make libssl-dev zlib1g-dev liblmdb-dev libflatbuffers-dev li
 
 ## Clone the Repository
 
-We'll be downloading the repository to the `$HOME` directory.
-
-Navigate to the `$HOME` directory:
+Before cloning the strfry repository, we're going to first create the following directories in the `$HOME` directory:
 
 ```bash
-cd $HOME
+mkdir -p $HOME/nostr/relays
+```
+
+We can now navigate to the `relays` directory:
+
+```bash
+cd $HOME/nostr/relays
 ```
 
 We're now ready to clone the strfry repository:
