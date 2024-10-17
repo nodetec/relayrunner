@@ -4,12 +4,12 @@ We're now going to discuss the nostr-rs-relay config file including how to set s
 
 ## Config File
 
-The nostr-rs-relay config file is located in the nostr-rs-relay repository we cloned and is named `config.toml`. In our case the file is located in the following directory `/tmp/nostr-rs-relay`.
+The nostr-rs-relay config file is located in the nostr-rs-relay repository we cloned and is named `config.toml`. In our case the file is located in the following directory `$HOME/nostr/relays/nostr-rs-relay`.
 
 To view the settings you can open the file:
 
 ```bash
-nano /tmp/nostr-rs-relay/config.toml
+nano $HOME/nostr/relays/nostr-rs-relay/config.toml
 ```
 
 ## Config Directory
@@ -23,7 +23,7 @@ mkdir /etc/nostr-rs-relay
 We can now copy the config file to the config directory:
 
 ```bash
-cp /tmp/nostr-rs-relay/config.toml /etc/nostr-rs-relay
+cp $HOME/nostr/relays/nostr-rs-relay/config.toml /etc/nostr-rs-relay
 ```
 
 We can change the permissions of the config directory and all of its content, i.e., the files and subdirectories inside of it:

@@ -142,7 +142,7 @@ At the time of writing, the latest version of the relay29 library is `v0.4.0` wh
 
 ## Run Binary
 
-Before we can run the strfry binary which uses the strfry config file, the strfry29 binary, and the `strfry29.json` file located in the `$HOME/relay29/strfry29` directory, we need to first create the strfry data directory specified in the strfry config file, i.e., `strfry-db`.
+Before we can run the strfry binary which uses the strfry config file, the strfry29 binary, and the `strfry29.json` file located in the `$HOME/nostr/relays/relay29/strfry29` directory, we need to first create the strfry data directory specified in the strfry config file, i.e., `strfry-db`.
 
 To create the strfry data directory run:
 

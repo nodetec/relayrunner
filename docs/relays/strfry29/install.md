@@ -13,7 +13,7 @@ We're going to be "installing" the `strfry29` binary to the `/usr/local/bin` dir
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd $HOME/relay29/strfry29
+cd $HOME/nostr/relays/relay29/strfry29
 ```
 
 To "install" the binary we can run:

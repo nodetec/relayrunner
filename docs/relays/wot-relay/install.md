@@ -13,7 +13,7 @@ We're going to be "installing" the `wot-relay` binary to the `/usr/local/bin` di
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd $HOME/wot-relay
+cd $HOME/nostr/relays/wot-relay
 ```
 
 To "install" the binary we can run:

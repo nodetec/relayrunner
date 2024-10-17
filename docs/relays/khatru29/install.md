@@ -13,7 +13,7 @@ We're going to be "installing" the `khatru29` binary to the `/usr/local/bin` dir
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd /tmp/relay29/examples/groups.fiatjaf.com
+cd $HOME/nostr/relays/relay29/examples/groups.fiatjaf.com
 ```
 
 To "install" the binary we can run:

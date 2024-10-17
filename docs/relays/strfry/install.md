@@ -13,7 +13,7 @@ We're going to be "installing" the `strfry` binary to the `/usr/local/bin` direc
 First, navigate to the directory where you installed the binary, e.g.,
 
 ```bash
-cd $HOME/strfry
+cd $HOME/nostr/relays/strfry
 ```
 
 To "install" strfry we can run:
