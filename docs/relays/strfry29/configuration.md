@@ -1,8 +1,8 @@
 # Configuration
 
-We're now going to discuss the strfry config file that we'll be using with strfry29. We'll go over how to set some of the settings as well as how to move the file to a config directory owned by the `nostr` user we previously created. We're also going to discuss how to create the data directory which will be owned by the `nostr` user.
+We're now going to discuss the strfry config file that we'll be using with strfry29. We'll go over how to set some of the settings as well as how to copy the file to a config directory owned by the `nostr` user we previously created. We're also going to discuss how to create the data directory which will be owned by the `nostr` user.
 
-Along with the strfry config file, we also have a `strfry29.json` file. This file contains settings specific to strfry29. We'll go over how to set the settings as well as how to move the file to the `/usr/local/bin` directory which is where the strfry29 binary is located. Currently, the strfry29 binary expects the `strfry29.json` file to be located in the same directory which is why we're moving it to the `/usr/local/bin` directory.
+Along with the strfry config file, we also have a `strfry29.json` file. This file contains settings specific to strfry29. We'll go over how to set the settings as well as how to copy the file to the `/usr/local/bin` directory which is where the strfry29 binary is located. Currently, the strfry29 binary expects the `strfry29.json` file to be located in the same directory which is why we're moving it to the `/usr/local/bin` directory.
 
 ## Config File
 
