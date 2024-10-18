@@ -10,6 +10,7 @@ nav:
       - Remote Access: server/remote-access.md
       - Upgrade: server/upgrade.md
       - Firewall: server/firewall.md
+      - Intrusion Detection: server/intrusion-detection.md
       - Reverse Proxy: server/reverse-proxy.md
       - SSL/TLS Certificate: server/ssl-tls-certificate.md
       - Nostr User: server/nostr-user.md
