@@ -88,4 +88,4 @@ Here are some of the settings you may want to change in the config file:
 
 - `icon` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. It's recommended to be in squared shape.
 
-- `nips` - List of NIPs supported by the relay. The value should be a JSON array, e.g., `"[1,2]"` or an empty string. The default value is `""` which shows the NIPs supported by default.
+- `nips` - List of NIPs supported by the relay. The value should be a JSON array, e.g., `"[1,2]"` or an empty string. The default value is `""` which shows the NIPs that are supported by default.

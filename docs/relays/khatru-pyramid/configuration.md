@@ -46,9 +46,9 @@ PORT="3335"
 DATABASE_PATH="/var/lib/khatru-pyramid/db"
 USERDATA_PATH="/var/lib/khatru-pyramid/users.json"
 MAX_INVITES_PER_PERSON="3"
-RELAY_NAME="Relay Runner's Khatru Pyramid Relay"
+RELAY_NAME="Relay Runner's Pyramid Relay"
 RELAY_PUBKEY="3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16"
-RELAY_DESCRIPTION="Khatru Pyramid Nostr Relay"
+RELAY_DESCRIPTION="This is a Relay Runner Khatru Pyramid relay."
 RELAY_CONTACT="your-email@example.com"
 RELAY_ICON="https://example.com/your-relay-icon.png"
 ```
@@ -57,20 +57,20 @@ Here's a description of the relay settings:
 
 - `DOMAIN` - The domain name of your server, e.g., `"relay.relayrunner.xyz"`.
 
-- `PORT` - The port your relay will run on. This setting is optional and the default value is `"3334"`. We'll set this to `"3335"`.
+- `PORT` - The port your relay will use for the WebSocket connection. This setting is optional and the default value is `"3334"`. We'll set this to `"3335"`.
 
 - `DATABASE_PATH` - The directory where your relay will store data. This setting is optional and the default value is set to `"./db"`. We'll set this to `"/var/lib/khatru-pyramid/db"`.
 
 - `USERDATA_PATH` - The file where your relay will store user data. This setting is optional and the default value is set to `"./users.json"`. We'll set this to `"/var/lib/khatru-pyramid/users.json"`.
 
-- `MAX_INVITES_PER_PERSON` - The maximum number of invites each person can make for the relay. This setting is optional and the default value is set to `"3"`.
+- `MAX_INVITES_PER_PERSON` - The maximum number of invites each person can make for the relay. This setting is optional and the default value is set to `"3"` which is what we're using.
 
-- `RELAY_NAME` - The name of your relay, e.g., `"Relay Runner's Khatru Pyramid Relay"`.
+- `RELAY_NAME` - The name of your relay which will be shared with Nostr clients. Should be less than 30 characters. We'll set this to `"Relay Runner's Pyramid Relay"`.
 
 - `RELAY_PUBKEY` - Your Nostr public key (32-byte hex, not npub), e.g., `"3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16"`.
 
-- `RELAY_DESCRIPTION` - A description of your relay. This setting is optional and the default value is set to `""`. We'll set this to `"Khatru Pyramid Nostr Relay"`.
+- `RELAY_DESCRIPTION` - A description of your relay. This setting is optional and the default value is set to `""`. We'll set this to `"This is a Relay Runner Khatru Pyramid relay."`.
 
-- `RELAY_CONTACT` - Your email address used for administrative requests, e.g., `"your-email@example.com"`. This setting is optional and the default value is `""`.
+- `RELAY_CONTACT` - Alternative contact used for administrative requests. Can be an email or website and should be a URI using schemes like `mailto` or `https`. This setting is optional and the default value is `""`. We'll set this to `"mailto:devs@node-tec.com"`.
 
-- `RELAY_ICON` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. This setting is optional and the default value is `""`.
+- `RELAY_ICON` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. It's recommended to be in squared shape. This setting is optional and the default value is `""`.
