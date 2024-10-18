@@ -11,7 +11,7 @@ map $http_upgrade $connection_upgrade {
 }
 
 upstream nostr_rs_relay_websocket { # can replace with a unique upstream WebSocket name that you choose
-    server 127.0.0.1:8080; # can replace with the address and port you set in your config file
+    server 0.0.0.0:8080; # can replace with the address and port you set in your config file
 }
 
 server {
@@ -108,7 +108,7 @@ server {
 
 Be sure to replace `relay.relayrunner.xyz` with your domain name and `/var/www/relay.relayrunner.xyz` with the directory you used to store the challenge files in.
 
-You can also replace `nostr_rs_relay_websocket` with a unique upstream WebSocket name that you choose, and you also have the option to replace `127.0.0.1:8080` with the address and port you set in your nostr-rs-relay config file.
+You can also replace `nostr_rs_relay_websocket` with a unique upstream WebSocket name that you choose, and you also have the option to replace `0.0.0.0:8080` with the address and port you set in your nostr-rs-relay config file.
 
 The proxy headers specified in the `location` block above, the SSL/TLS directives, and the security headers specified above can be changed to meet the specific needs of your relay. There are even more strict values that can be set especially for the `Permissions-Policy` and `Content-Security-Policy` headers depending on your requirements. Be sure to test any changes you make are compatible with the nostr-rs-relay implementation.
 

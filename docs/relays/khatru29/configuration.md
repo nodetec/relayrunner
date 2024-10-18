@@ -46,7 +46,7 @@ PORT="5577"
 DATABASE_PATH="/var/lib/khatru29/db"
 RELAY_NAME="Relay Runner's Khatru29 Relay"
 RELAY_PRIVKEY="<your-secret-key>"
-RELAY_DESCRIPTION="Khatru29 Nostr Relay"
+RELAY_DESCRIPTION="This is a Relay Runner Khatru29 relay."
 RELAY_CONTACT="your-email@example.com"
 RELAY_ICON="https://example.com/your-relay-icon.png"
 ```
@@ -55,16 +55,16 @@ Here's a description of the relay settings:
 
 - `DOMAIN` - The domain name of your server, e.g., `"relay.relayrunner.xyz"`.
 
-- `PORT` - The port your relay will run on. This setting is optional and the default value is `"5577"`.
+- `PORT` - The port your relay will use for the WebSocket connection. This setting is optional and the default value is `"5577"` which is what we're using.
 
 - `DATABASE_PATH` - The directory where your relay will store data. This setting is optional and the default value is set to `"./db"`. We'll set this to `"/var/lib/khatru29/db"`.
 
-- `RELAY_NAME` - The name of your relay, e.g., `"Relay Runner's Khatru29 Relay"`.
+- `RELAY_NAME` - The name of your relay which will be shared with Nostr clients. Should be less than 30 characters. We'll set this to `"Relay Runner's Khatru29 Relay"`.
 
 - `RELAY_PRIVKEY` - Your Nostr private key (32-byte hex, not nsec) that you're using as the relay's private key. Be sure to input your secret key securely, i.e., don't let anyone, any camera, etc. see your secret key, clear your clipboard if you're copying and pasting the value, etc. Be sure to replace `"<your-secret-key>"` with your secret key.
 
-- `RELAY_DESCRIPTION` - A description of your relay. This setting is optional and the default value is set to `""`. We'll set this to `"Khatru29 Nostr Relay"`.
+- `RELAY_DESCRIPTION` - A description of your relay. This setting is optional and the default value is set to `""`. We'll set this to `"This is a Relay Runner Khatru29 relay."`.
 
-- `RELAY_CONTACT` - Your email address used for administrative requests, e.g., `"your-email@example.com"`. This setting is optional and the default value is `""`.
+- `RELAY_CONTACT` - Alternative contact used for administrative requests. Can be an email or website and should be a URI using schemes like `mailto` or `https`. This setting is optional and the default value is `""`. We'll set this to `"mailto:devs@node-tec.com"`.
 
-- `RELAY_ICON` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. This setting is optional and the default value is `""`.
+- `RELAY_ICON` - URL to your relay's icon, e.g., `"https://example.com/your-relay-icon.png"`. It's recommended to be in squared shape. This setting is optional and the default value is `""`.
