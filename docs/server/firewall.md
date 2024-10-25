@@ -58,7 +58,7 @@ If you’re using the default port for the SSH server, i.e., port `22`, you can 
 ufw allow ssh
 ```
 
-If you changed the default port for the SSH server, then run the following command to allow incoming SSH connections on the custom port:
+If you changed the default port for the SSH server, run the following command to allow incoming SSH connections on the custom port:
 
 ```bash
 ufw allow <port-number>/tcp
@@ -104,7 +104,7 @@ After running the above command, you may receive a warning message that looks si
 Command may disrupt existing ssh connections. Proceed with operation (y|n)?
 ```
 
-If you successfully configured the rules for the incoming SSH connections, then enter `y` and press enter.
+If you successfully configured the rules for the incoming SSH connections, enter `y` and press enter.
 
 ## Check Status
 
@@ -122,7 +122,7 @@ The status of your firewall should look similar to the following:
 
 ## Enable on Boot
 
-UFW should already be enabled to start automatically on boot, but if it isn’t then run:
+UFW should already be enabled to start automatically on boot, but if it isn’t run:
 
 ```bash
 systemctl enable ufw

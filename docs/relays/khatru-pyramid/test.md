@@ -8,7 +8,7 @@ If you don't have `nak` installed, you can do so by running:
 go install github.com/fiatjaf/nak@latest
 ```
 
-If you don't have Go installed on the device you want to test the relay from, you can download the latest release and learn how to install it on your preferred device from the [Download and install](https://go.dev/doc/install "Download and install") page.
+If you don't have Go installed on the device you want to test the relay from, you can download the latest release and learn how to install it on your preferred device from the [Download and install](https://go.dev/doc/install "Download and install page") page.
 
 ## Test Event
 

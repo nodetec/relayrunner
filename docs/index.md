@@ -24,6 +24,8 @@ You'll learn how to:
 
 - Set up a firewall
 
+- Set up intrusion detection
+
 - Configure Nginx
 
 - Obtain and set up an SSL/TLS certificate
@@ -35,3 +37,7 @@ You'll learn how to:
 - Configure your relay
 
 - Set up a systemd service for your relay
+
+- Test your relay
+
+- Upgrade your relay

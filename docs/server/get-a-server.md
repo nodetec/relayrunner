@@ -4,7 +4,7 @@ For this guide we'll be using a Virtual Private Server (VPS) from [Vultr](https:
 
 ## Create an Account
 
-First, you'll need to create an account on Vultr. You can do that on the [Vultr](https://www.vultr.com/?ref=9247696 "Vultr") website.
+First, you'll need to create an account on Vultr. You can do that on the [Vultr](https://www.vultr.com/register "Create an account on Vultr") website.
 
 ## Deploy a Server
 
@@ -58,7 +58,7 @@ You have the option to choose an SSH key that will automatically be added to you
 
 ## Server Hostname & Label
 
-You can choose a hostname and label for your server. I recommend choosing something that will help you remember what this server is for.
+You can choose a hostname and label for your server. It's recommended to choose something that will help you remember what this server is for.
 
 ## Server Info
 

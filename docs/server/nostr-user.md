@@ -2,7 +2,7 @@
 
 For security reasons we're going to create a separate user to use with our relay. This user will have ownership of various relay directories including the data directory, config directory, templates directory, etc.
 
-Note that every relay may not have all of those directories, but each relay directory will be owned by the user we're about to create.
+Note that every relay implementation may not have all of those directories, but each relay directory will be owned by the user we're about to create.
 
 ## Create nostr User
 
@@ -14,7 +14,7 @@ To create the `nostr` user we can run:
 adduser --disabled-login --gecos "" nostr
 ```
 
-This command also creates a group with same name as the provided username, i.e., `nostr` and adds the `nostr` user to the `nostr` group.
+This command also creates a group with the same name as the provided username, i.e., `nostr` and adds the `nostr` user to the `nostr` group.
 
 A home directory is also created for the user, i.e., `/home/nostr`.
 

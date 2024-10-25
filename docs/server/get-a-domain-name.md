@@ -22,13 +22,13 @@ First, remove the default records that Namecheap added for you. You should have 
 
 ![Namecheap Remove Records](../images/namecheap-remove-records.png)
 
-Now we'll add a few records for `@` which is the root domain (relayrunner.xyz), `www` (www.relayrunner.xyz), and `relay` (relay.relayrunner.xyz). You will need to create an `A` record for each IPv4 address and a `AAAA` record for each Ipv6 address. When you're done it should look like the image below:
+Now we'll add a few records for `@` which is the root domain (relayrunner.xyz), `www` (www.relayrunner.xyz), and `relay` (relay.relayrunner.xyz). You will need to create an `A` record for each IPv4 address and a `AAAA` record for each IPv6 address. When you're done it should look like the image below:
 
 ![Namecheap Records](../images/namecheap-records.png)
 
 ## DNS Propagation
 
-It can take up to 24 hours for your DNS changes to propagate. You can check the status of your DNS changes by going to [whatsmydns.net](https://www.whatsmydns.net "whatsmydns.net")
+It can take up to 24 hours for your DNS changes to propagate. You can check the status of your DNS changes by going to [whatsmydns.net](https://www.whatsmydns.net "whatsmydns.net").
 
 When you enter your domain name you should see the IP addresses you added in the previous step. If you don't see them yet, wait a few hours and check again.
 

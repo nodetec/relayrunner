@@ -8,7 +8,7 @@ Fail2Ban is primarily focused on SSH attacks, but it can be configured to work w
 
 ## Install Fail2Ban
 
-To install UFW run:
+To install Fail2Ban run:
 
 ```bash
 apt install fail2ban
@@ -64,7 +64,7 @@ Status
 
 The default Fail2Ban jail configuration is located in `/etc/fail2ban/jail.conf`.
 
-To view the jail configuration you can open the file:
+To view the jail configuration, open the file:
 
 ```bash
 nano /etc/fail2ban/jail.conf
@@ -76,7 +76,7 @@ To edit the jail configuration, create new configuration files in the `/etc/fail
 
 ### sshd
 
-Before creating a new SSH jail configuration we're going to first delete the `defaults-debian.conf` file which contains a basic sshd jail configuration:
+Before creating a new SSH jail configuration, we're going to first delete the `defaults-debian.conf` file which contains a basic sshd jail configuration:
 
 ```bash
 rm /etc/fail2ban/jail.d/defaults-debian.conf
@@ -116,7 +116,7 @@ Here's a description of the settings:
 
 - `ignoreip` - Sets IP addresses that will not get banned by whitelisting them. The value `127.0.0.1/8 ::1` corresponds to the IPv4 and IPv6 loopback address, i.e., the IP addresses the device uses to refer to itself. You can also add your public IP address(es) to avoid being locked out of the device.
 
-If you had to resolve the missing log file for sshd jail error after installing Fail2Ban, be sure to include the `backend = systemd` setting in the file as well.
+If you had to resolve the missing log file for the sshd jail error after installing Fail2Ban, be sure to include the `backend = systemd` setting in the file as well.
 
 To apply the changes restart Fail2Ban:
 
@@ -165,7 +165,7 @@ ERROR   Failed during configuration: Have not found any log file for sshd jail
 ERROR   Async configuration of server failed
 ```
 
-To resolve this we’re going to change the backend value for the sshd jail in a `sshd.local` file which we're going to create in the `/etc/fail2ban/jail.d` directory.
+To resolve this, we’re going to change the backend value for the sshd jail in a `sshd.local` file which we're going to create in the `/etc/fail2ban/jail.d` directory.
 
 To create and open the `sshd.local` file run:
 

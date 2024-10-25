@@ -2,15 +2,15 @@
 
 🦩 npub: `npub1809mpa7748df7kext899m2yatetky9w78zz72x7jgaxarvxyfvtqwvfpz8`
 
-🔑 Keybase: [nodetec](https://keybase.io/nodetec "nodetec")
+🔑 Keybase: [nodetec](https://keybase.io/nodetec "NODE-TEC Keybase")
 
-🔖 Substack: [NODE-TEC](https://nodetec.substack.com "NODE-TEC")
+🔖 Substack: [NODE-TEC](https://nodetec.substack.com "NODE-TEC Substack")
 
-𝕏: [@node_tec](https://twitter.com/node_tec "@node_tec")
+𝕏: [@node_tec](https://twitter.com/node_tec "NODE-TEC X")
 
-🤖 Discord: [NODE-TEC](https://discord.gg/zdKq5brhF9 "NODE-TEC")
+🤖 Discord: [NODE-TEC](https://discord.gg/zdKq5brhF9 "NODE-TEC Discord")
 
-📧 Email: [devs@node-tec.com](mailto:devs@node-tec.com "devs@node-tec.com")
+📧 Email: [devs@node-tec.com](mailto:devs@node-tec.com "NODE-TEC Email")
 
 🔐 PGP Fingerprint: `04BD 8C20 598F A5FD DE19 BECD 8F24 69F7 1314 FAD7`
 

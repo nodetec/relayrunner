@@ -174,22 +174,22 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nodetec
-      name: NODE-TEC on GitHub
+      name: NODE-TEC GitHub
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@nodetec
-      name: NODE-TEC on YouTube
+      name: NODE-TEC YouTube
     - icon: fontawesome/solid/bookmark
       link: https://nodetec.substack.com/
       name: NODE-TEC Substack
     - icon: fontawesome/brands/keybase
       link: https://keybase.io/nodetec
-      name: NODE-TEC on Keybase
+      name: NODE-TEC Keybase
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/node_tec
-      name: NODE-TEC on X
+      name: NODE-TEC X
     - icon: fontawesome/brands/discord
       link: https://discord.gg/zdKq5brhF9
-      name: NODE-TEC on Discord
+      name: NODE-TEC Discord
     - icon: fontawesome/solid/envelope
       link: mailto:devs@node-tec.com
       name: NODE-TEC Email

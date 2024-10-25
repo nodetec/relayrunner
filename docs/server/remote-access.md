@@ -1,12 +1,10 @@
 # Remote Access
 
-You'll need to access your server remotely to install software, update the server, and manage the relay. This guide will show you how to access your server using SSH.
+You'll need to access your server remotely to install software, update the server, manage the relay, etc. Here you'll learn how to access your server using SSH.
 
 ## Login to your Server
 
-You'll need to login to your server using SSH.
-
-You can do this by running:
+To login to your server using SSH run:
 
 ```bash
 ssh root@relayrunner.xyz
@@ -20,7 +18,7 @@ When you first attempt to SSH into the relay from your client you’ll be prompt
 
 To confirm the connection answer the prompt by typing `yes` and pressing enter.
 
-After answering `yes` and establishing the connection the SSH server fingerprint will be stored in the client’s `known_hosts` file which is located in the `.ssh` hidden directory.
+After answering `yes` and establishing the connection, the SSH server fingerprint will be stored in the client’s `known_hosts` file which is located in the `.ssh` hidden directory.
 
 ### Enter Password
 
@@ -68,9 +66,9 @@ Be sure to replace `<path-to-public-key-file>` with the path to the SSH public k
 
 Also, be sure to replace `relayrunner.xyz` with the domain name you're using with your relay.
 
-After running the `ssh-copy-id` command you’ll initially be prompted to enter the SSH login password.
+After running the `ssh-copy-id` command, you’ll initially be prompted to enter the SSH login password.
 
-Once you successfully authenticate the user you’ll see output similar to:
+Once you successfully authenticate the user, you’ll see output similar to:
 
 ![SSH Copy ID](../images/ssh-copy-id.png)
 
@@ -79,11 +77,11 @@ file on the relay which will be created if it doesn’t exist, and the connectio
 
 The `authorized_keys` file contains all of the public keys that have been copied to the relay and is located in the `$HOME/.ssh` directory.
 
-If you ever want to remove a public key, then open the `authorized_keys` file, delete the line containing the public key you want to remove, and save the file.
+If you ever want to remove a public key, open the `authorized_keys` file, delete the line containing the public key you want to remove, and save the file.
 
 ### Login
 
-Now you can login to your relay and you shouldn't be prompted to enter a password since you're using public key authentication:
+Now you can login to your relay, and you shouldn't be prompted to enter a password since you're using public key authentication:
 
 ```bash
 ssh root@relayrunner.xyz
@@ -95,7 +93,7 @@ To add another layer of security to the relay, we’re going to disable the pass
 
 Before disabling password authentication, make sure you’re able to login with public key authentication and the user you’re logging in with has `sudo` privileges which should be the case if you’ve been following along.
 
-To start SSH into the relay using public key authentication if you’re not already logged in.
+To start, SSH into the relay using public key authentication if you’re not already logged in.
 
 Next, we need to open the `sshd_config` file on the relay by running:
 
@@ -135,6 +133,6 @@ For the changes to take effect we need to reload the SSH server which we can do 
 systemctl reload sshd
 ```
 
-Now, if you attempt to SSH into the relay from a client that doesn’t have access to the private key from your SSH key pair, then the login attempt will be refused without giving the option of entering the SSH login password.
+Now if you attempt to SSH into the relay from a client that doesn’t have access to the private key from your SSH key pair, the login attempt will be refused without giving the option of entering the SSH login password.
 
-If you lose access to your SSH keys, then you'll be unable to access the relay remotely using SSH. Be sure to securely backup the passphrase for the private key if you used one as well as the SSH keys using, e.g., a USB.
+If you lose access to your SSH keys, you'll be unable to access the relay remotely using SSH. Be sure to securely backup the passphrase for the private key if you used one as well as the SSH keys using, e.g., a USB.
