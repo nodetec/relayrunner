@@ -12,7 +12,7 @@ If you don't have Go installed on the device you want to test the relay from, yo
 
 ## Test Event
 
-Since Khatru Pyramid uses an invite hierarchy, to test the relay we need to use the secret key of one of the public keys you have added to the `users.json` file. Initially, the file will contain the public key set in the `khatru-pyramid.env` file, so you can use that public key's secret key when testing your relay.
+Since Khatru Pyramid uses an invite hierarchy, to test the relay you need to use the secret key of one of the public keys you have added to the `users.json` file. Initially, the file will contain the public key set in the `khatru-pyramid.env` file, so you can use that public key's secret key when testing your relay.
 
 Be sure to sign the event securely, i.e., don't let anyone, any camera, etc. see your secret key, clear your clipboard if you're copying and pasting the value, turn off your terminal history, etc.
 

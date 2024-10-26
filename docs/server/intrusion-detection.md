@@ -14,7 +14,7 @@ To install Fail2Ban run:
 apt install fail2ban
 ```
 
-## Status
+## Check Status
 
 To check the status of Fail2Ban run:
 
@@ -26,7 +26,7 @@ If you see output similar to: `Active: failed (Result: exit-code)` instead of `A
 
 Take a look at the [Resolve Error(s)](/server/intrusion-detection/#resolve-errors "Resolve Error(s)") section to determine how to view the full error(s) and how to resolve common errors.
 
-## Enable
+## Enable Fail2Ban
 
 Fail2Ban should already be enabled to start automatically on boot, but if it isn’t run:
 
@@ -34,7 +34,7 @@ Fail2Ban should already be enabled to start automatically on boot, but if it isn
 systemctl enable fail2ban
 ```
 
-## Start
+## Start Fail2Ban
 
 Fail2Ban should have started after the installation, but if it didn't run:
 

@@ -1,6 +1,6 @@
 # Build
 
-We're now going to discuss how to build the [WoT Relay](https://github.com/bitvora/wot-relay "WoT Relay").
+We're now going to discuss how to build the [WoT Relay](https://github.com/bitvora/wot-relay "WoT Relay GitHub").
 
 ## Dependencies
 
@@ -26,7 +26,7 @@ apt install git
 
 We're now going to discuss how to install Go on your relay.
 
-First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases") page on the Go website.
+First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases page") page on the Go website.
 
 Make sure to choose the appropriate download file for your relay's operating system (OS) and architecture. Since we're using Debian with an AMD processor, we're going to download the `linux-amd64` file.
 
@@ -64,7 +64,7 @@ ls /usr/local
 
 You can now add `/usr/local/go/bin` to the `PATH` environment variable by adding `export PATH=$PATH:/usr/local/go/bin` to your `$HOME/.bashrc` file.
 
-First open the file with a text editor of your choice, e.g., `nano`:
+First, open the file with a text editor of your choice, e.g., `nano`:
 
 ```bash
 nano $HOME/.bashrc
@@ -146,7 +146,7 @@ ls
 
 You should see the binary file which should be named `wot-relay`.
 
-## Version
+## Check Version
 
 At the time of writing, the latest version of the WoT Relay is `v0.1.13` which is what the rest of the guide is currently based on.
 

@@ -1,6 +1,6 @@
 # Introduction
 
-The [nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay "nostr-rs-relay GitHub") is written in Rust, and at the time of writing it supports most of the relay protocol. The relay data is persisted using SQLite, and there is experimental support for PostgreSQL.
+The [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay "nostr-rs-relay sourcehut") is written in Rust, and at the time of writing it supports most of the relay protocol. The relay data is persisted using SQLite, and there is experimental support for PostgreSQL.
 
 The repository is available on [sourcehut](https://sr.ht/~gheartsfield/nostr-rs-relay "nostr-rs-relay sourcehut"), and is mirrored on [GitHub](https://github.com/scsibug/nostr-rs-relay "nostr-rs-relay GitHub").
 

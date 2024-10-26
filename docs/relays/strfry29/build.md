@@ -1,6 +1,6 @@
 # Build
 
-We're now going to discuss how to build the [strfry29](https://github.com/fiatjaf/relay29/tree/master/strfry29 "strfry29") plugin.
+We're now going to discuss how to build the [strfry29](https://github.com/fiatjaf/relay29/tree/master/strfry29 "strfry29 GitHub") plugin.
 
 ## Dependencies
 
@@ -10,13 +10,13 @@ Before building the binary, we need to install the dependencies.
 
 Since strfry29 is a plugin for strfry, you need to first make sure you have properly installed and configured strfry before continuing.
 
-You can follow along with the [strfry guide](/relays/strfry/intro/ "strfry guide") to install and configure strfry.
+You can follow along with the [strfry guide](/relays/strfry/introduction "strfry guide") to install and configure strfry.
 
 ### Go
 
 After setting up strfry, we need to now install Go. The strfry29 plugin we're using is written in Go, so we need to install Go to be able to build the binary.
 
-First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases") page on the Go website.
+First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases page") page on the Go website.
 
 Make sure to choose the appropriate download file for your relay's operating system (OS) and architecture. Since we're using Debian with an AMD processor, we're going to download the `linux-amd64` file.
 
@@ -54,7 +54,7 @@ ls /usr/local
 
 You can now add `/usr/local/go/bin` to the `PATH` environment variable by adding `export PATH=$PATH:/usr/local/go/bin` to your `$HOME/.bashrc` file.
 
-First open the file with a text editor of your choice, e.g., `nano`:
+First, open the file with a text editor of your choice, e.g., `nano`:
 
 ```bash
 nano $HOME/.bashrc
@@ -136,7 +136,7 @@ ls
 
 You should see the binary file which should be named `strfry29`.
 
-## Version
+## Check Version
 
 At the time of writing, the latest version of the relay29 library is `v0.4.0` which is what the rest of the guide is currently based on.
 

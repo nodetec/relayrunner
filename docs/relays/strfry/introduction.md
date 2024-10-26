@@ -1,6 +1,6 @@
 # Introduction
 
-[strfry](https://github.com/hoytech/strfry "strfry") is a relay implementation written in C++ that supports multiple NIPs and has numerous features.
+[strfry](https://github.com/hoytech/strfry "strfry GitHub") is a relay implementation written in C++ that supports multiple NIPs and has numerous features.
 
 ## Features
 
@@ -20,4 +20,4 @@ strfry features include:
 
 - Built-in support for real-time streaming (up/down/both) events from remote relays, and bulk import/export of events from/to jsonl files
 
-- [negentropy](https://github.com/hoytech/negentropy "negentropy") based set reconciliation for efficient syncing with clients or between relays, accurate counting of events between relays, and more
+- [negentropy](https://github.com/hoytech/negentropy "negentropy GitHub") based set reconciliation for efficient syncing with clients or between relays, accurate counting of events between relays, and more

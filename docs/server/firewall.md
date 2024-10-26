@@ -12,7 +12,7 @@ To install UFW run:
 apt install ufw
 ```
 
-## Status
+## Check Status
 
 To check the status of UFW run:
 
@@ -88,7 +88,7 @@ If you don’t have a valid reason to keep UFW’s logging active, you should di
 ufw logging off
 ```
 
-## Enable
+## Enable UFW
 
 After setting the incoming connections rules and setting the logging preference, we’re now ready to enable UFW which will activate it and apply the rules we set.
 
@@ -105,8 +105,6 @@ Command may disrupt existing ssh connections. Proceed with operation (y|n)?
 ```
 
 If you successfully configured the rules for the incoming SSH connections, enter `y` and press enter.
-
-## Check Status
 
 After enabling UFW, you can check the status by running:
 

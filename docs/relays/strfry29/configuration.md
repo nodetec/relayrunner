@@ -108,7 +108,7 @@ Here are some of the settings you may want to change in the config file:
 
 - `writePolicy` - If the value is non-empty, i.e., isn't set to `""`, the writePolicy plugin logic is determined by the provided path to an executable script. The default value is `plugin = "./strfry29"`. We'll set this to `plugin = "/usr/local/bin/strfry29"`.
 
-## Edit strfry.json File
+## Edit strfry29.json File
 
 To change the `strfry29.json` settings you can open the file and edit the settings you want to change:
 

@@ -50,6 +50,6 @@ bc1q5rsnx4d320jtuvdf0k8kkmgjzfnac95gphyznn
 
 ### Lightning
 
-⚡ [Tip Chris with Lightning](https://getalby.com/p/chrisatmachine "Tip with Lightning")
+⚡ [Tip Chris with Lightning](https://getalby.com/p/chrisatmachine "Tip Chris with Lightning")
 
-⚡ [Tip J with Lightning](https://getalby.com/p/j_the_code_monkey "Tip with Lightning")
+⚡ [Tip J with Lightning](https://getalby.com/p/j_the_code_monkey "Tip J with Lightning")

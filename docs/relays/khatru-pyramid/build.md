@@ -138,7 +138,7 @@ ls
 
 You should see the binary file which should be named `khatru-pyramid`.
 
-## Version
+## Check Version
 
 At the time of writing, the latest version of Khatru Pyramid is `v0.1.0` which is what the rest of the guide is currently based on.
 
@@ -147,7 +147,7 @@ At the time of writing, the latest version of Khatru Pyramid is `v0.1.0` which i
 You can now run the binary:
 
 ```bash
-DOMAIN="relay.relayrunner.xyz" RELAY_NAME="Relay Runner's Khatru Pyramid Relay" RELAY_PUBKEY="3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16" ./khatru-pyramid
+DOMAIN="relay.relayrunner.xyz" RELAY_NAME="Relay Runner's Pyramid Relay" RELAY_PUBKEY="3bcbb0f7dea9da9f5b2659ca5da89d5e576215de3885e51bd2474dd1b0c44b16" ./khatru-pyramid
 ```
 
 Be sure to replace the values of the following:

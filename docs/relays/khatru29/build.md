@@ -1,6 +1,6 @@
 # Build
 
-We're now going to discuss how to build the binary for the [groups.fiatjaf.com](https://github.com/fiatjaf/relay29/tree/master/examples/groups.fiatjaf.com "groups.fiatjaf.com") example provided by the relay29 repository which uses the [Khatru29](https://pkg.go.dev/github.com/fiatjaf/relay29/khatru29 "Khatru29") wrapper.
+We're now going to discuss how to build the binary for the [groups.fiatjaf.com](https://github.com/fiatjaf/relay29/tree/master/examples/groups.fiatjaf.com "groups.fiatjaf.com example") example provided by the relay29 repository which uses the [Khatru29](https://pkg.go.dev/github.com/fiatjaf/relay29/khatru29 "Khatru29") wrapper.
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ apt install git
 
 We're now going to discuss how to install Go on your relay.
 
-First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases") page on the Go website.
+First, you need to determine which version of Go you want to install which you can do by going to the [All releases](https://go.dev/dl "All releases page") page on the Go website.
 
 Make sure to choose the appropriate download file for your relay's operating system (OS) and architecture. Since we're using Debian with an AMD processor, we're going to download the `linux-amd64` file.
 
@@ -56,7 +56,7 @@ ls /usr/local
 
 You can now add `/usr/local/go/bin` to the `PATH` environment variable by adding `export PATH=$PATH:/usr/local/go/bin` to your `$HOME/.bashrc` file.
 
-First open the file with a text editor of your choice, e.g., `nano`:
+First, open the file with a text editor of your choice, e.g., `nano`:
 
 ```bash
 nano $HOME/.bashrc
@@ -144,7 +144,7 @@ We're going to use a more general name for the binary by renaming it to `khatru2
 mv groups.fiatjaf.com khatru29
 ```
 
-## Version
+## Check Version
 
 At the time of writing, the latest version of the relay29 library is `v0.4.0` which is what the rest of the guide is currently based on.
 

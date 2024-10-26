@@ -100,4 +100,4 @@ Here are some of the important settings you'll want to change in the config file
 
 - `remote_ip_header` - Used to specify the HTTP header for logging client IP addresses. We'll set this to `"x-forwarded-for"`.
 
-- `pubkey_whitelist` - An array of public keys that are allowed to post to your relay. Only valid events from the specified public keys will be accepted if this variable is set. If you are running a server just for yourself or a small group you can uncomment this line and add the whitelisted public keys to the array.
+- `pubkey_whitelist` - An array of public keys that are allowed to post to your relay. Only valid events from the specified public keys will be accepted if this variable is set. If you are running a server just for yourself or a small group, you can uncomment this line and add the whitelisted public keys to the array.

@@ -1,6 +1,6 @@
 # Build
 
-We're now going to discuss how to build [strfry](https://github.com/hoytech/strfry "strfry").
+We're now going to discuss how to build [strfry](https://github.com/hoytech/strfry "strfry GitHub").
 
 ## Dependencies
 
@@ -72,7 +72,7 @@ ls
 
 You should see the binary file which should be named `strfry`.
 
-## Version
+## Check Version
 
 At the time of writing, the latest version of strfy is `v1.0.1` which is what the rest of the guide is currently based on.
 

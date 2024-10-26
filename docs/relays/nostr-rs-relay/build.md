@@ -1,6 +1,6 @@
 # Build
 
-We're now going to discuss how to build [nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay "nostr-rs-relay GitHub").
+We're now going to discuss how to build [nostr-rs-relay](https://sr.ht/~gheartsfield/nostr-rs-relay "nostr-rs-relay sourcehut").
 
 ## Dependencies
 
